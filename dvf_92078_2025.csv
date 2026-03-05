@@ -1,0 +1,528 @@
+id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
+2025-453361,2025-01-06,000001,Vente en l'état futur d'achèvement,222000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5097,41,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453361,2025-01-06,000001,Vente en l'état futur d'achèvement,222000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11029,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453363,2025-01-08,000001,Vente en l'état futur d'achèvement,237000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11049,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453363,2025-01-08,000001,Vente en l'état futur d'achèvement,237000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5106,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453364,2025-01-07,000001,Vente en l'état futur d'achèvement,263000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11597,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453364,2025-01-07,000001,Vente en l'état futur d'achèvement,263000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10001,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453397,2025-01-10,000001,Vente en l'état futur d'achèvement,334000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5011,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453397,2025-01-10,000001,Vente en l'état futur d'achèvement,334000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5016,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453397,2025-01-10,000001,Vente en l'état futur d'achèvement,334000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11188,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453401,2025-01-10,000001,Vente en l'état futur d'achèvement,289000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11177,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453401,2025-01-10,000001,Vente en l'état futur d'achèvement,289000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9055,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453409,2025-01-13,000001,Vente en l'état futur d'achèvement,262000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11391,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453409,2025-01-13,000001,Vente en l'état futur d'achèvement,262000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7028,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453429,2025-01-15,000001,Vente en l'état futur d'achèvement,326445,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4057,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453429,2025-01-15,000001,Vente en l'état futur d'achèvement,326445,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11286,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453429,2025-01-15,000001,Vente en l'état futur d'achèvement,326445,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4062,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453470,2025-01-16,000001,Vente en l'état futur d'achèvement,222000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7071,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453470,2025-01-16,000001,Vente en l'état futur d'achèvement,222000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11355,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453471,2025-01-16,000001,Vente en l'état futur d'achèvement,276210,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5022,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453471,2025-01-16,000001,Vente en l'état futur d'achèvement,276210,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5123,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453471,2025-01-16,000001,Vente en l'état futur d'achèvement,276210,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5029,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453471,2025-01-16,000001,Vente en l'état futur d'achèvement,276210,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11163,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453491,2025-01-17,000001,Vente en l'état futur d'achèvement,255000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10071,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453491,2025-01-17,000001,Vente en l'état futur d'achèvement,255000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11142,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453513,2025-01-17,000001,Vente,104000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,325,22.41,,,,,,,,,1,2,Appartement,22,1,,,,,,2.327666,48.92669
+2025-453531,2025-01-20,000001,Vente en l'état futur d'achèvement,198000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11479,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453531,2025-01-20,000001,Vente en l'état futur d'achèvement,198000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7022,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453587,2025-01-21,000001,Vente en l'état futur d'achèvement,262000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11392,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453587,2025-01-21,000001,Vente en l'état futur d'achèvement,262000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453589,2025-01-23,000001,Vente en l'état futur d'achèvement,225213,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11001,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453589,2025-01-23,000001,Vente en l'état futur d'achèvement,225213,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4066,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453602,2025-01-22,000001,Vente en l'état futur d'achèvement,3412,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7101,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453617,2025-01-23,000001,Vente en l'état futur d'achèvement,205000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7059,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453617,2025-01-23,000001,Vente en l'état futur d'achèvement,205000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11329,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453641,2025-01-24,000001,Vente en l'état futur d'achèvement,213000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11160,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453641,2025-01-24,000001,Vente en l'état futur d'achèvement,213000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5058,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453655,2025-01-24,000001,Vente en l'état futur d'achèvement,196000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4025,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453655,2025-01-24,000001,Vente en l'état futur d'achèvement,196000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11249,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453694,2025-01-27,000001,Vente en l'état futur d'achèvement,290000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11199,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453694,2025-01-27,000001,Vente en l'état futur d'achèvement,290000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9039,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453694,2025-01-27,000001,Vente en l'état futur d'achèvement,290000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9033,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453777,2025-01-30,000001,Vente en l'état futur d'achèvement,338000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4031,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453777,2025-01-30,000001,Vente en l'état futur d'achèvement,338000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11043,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453779,2025-01-30,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7118,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453779,2025-01-30,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7078,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453779,2025-01-30,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11412,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453785,2025-01-29,000001,Vente en l'état futur d'achèvement,269000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11411,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453785,2025-01-29,000001,Vente en l'état futur d'achèvement,269000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7073,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453793,2025-01-30,000001,Vente en l'état futur d'achèvement,197010,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11344,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453793,2025-01-30,000001,Vente en l'état futur d'achèvement,197010,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4014,40.4,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453796,2025-01-28,000001,Vente en l'état futur d'achèvement,204000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7051,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453796,2025-01-28,000001,Vente en l'état futur d'achèvement,204000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11327,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453823,2025-01-30,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11215,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453823,2025-01-30,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5085,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453823,2025-01-30,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5092,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453844,2025-01-31,000001,Vente en l'état futur d'achèvement,215000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11020,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453844,2025-01-31,000001,Vente en l'état futur d'achèvement,215000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5078,41.58,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453919,2025-02-04,000001,Vente en l'état futur d'achèvement,488880,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10112,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453919,2025-02-04,000001,Vente en l'état futur d'achèvement,488880,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11621,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453925,2025-01-27,000001,Vente en l'état futur d'achèvement,377000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11592,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453925,2025-01-27,000001,Vente en l'état futur d'achèvement,377000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10066,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453955,2025-01-31,000001,Vente,86632,7,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,1308,,,,,,,,,,1,2,Appartement,65,3,,,,,,2.332382,48.934813
+2025-453955,2025-01-31,000001,Vente,86632,9001,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,1508,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332382,48.934813
+2025-453980,2025-02-06,000001,Vente en l'état futur d'achèvement,197000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5073,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-453980,2025-02-06,000001,Vente en l'état futur d'achèvement,197000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11111,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454062,2025-01-15,000001,Vente en l'état futur d'achèvement,276600,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,427,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454062,2025-01-15,000001,Vente en l'état futur d'achèvement,276600,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,107,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454110,2025-01-31,000001,Vente,113352,31,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0302,,,146,46.18,27,,,,,,,,2,2,Appartement,44,2,,,,,,2.330901,48.940239
+2025-454110,2025-01-31,000001,Vente,113352,31,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0302,,,146,46.18,27,,,,,,,,2,3,Dépendance,,0,,,,,,2.330901,48.940239
+2025-454219,2025-02-12,000001,Vente en l'état futur d'achèvement,146025,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10039,23.3,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454221,2025-02-12,000001,Vente en l'état futur d'achèvement,274510,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11146,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454221,2025-02-12,000001,Vente en l'état futur d'achèvement,274510,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8030,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454221,2025-02-12,000001,Vente en l'état futur d'achèvement,274510,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8035,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454223,2025-02-13,000001,Vente en l'état futur d'achèvement,3412,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7112,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454226,2025-02-03,000001,Vente en l'état futur d'achèvement,333000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,113,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454226,2025-02-03,000001,Vente en l'état futur d'achèvement,333000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,7,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454235,2025-02-13,000001,Vente en l'état futur d'achèvement,257000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11194,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454235,2025-02-13,000001,Vente en l'état futur d'achèvement,257000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9010,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454308,2025-02-17,000001,Vente en l'état futur d'achèvement,274230,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9047,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454308,2025-02-17,000001,Vente en l'état futur d'achèvement,274230,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9044,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454308,2025-02-17,000001,Vente en l'état futur d'achèvement,274230,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11203,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454310,2025-02-18,000001,Vente en l'état futur d'achèvement,299147,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11127,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454310,2025-02-18,000001,Vente en l'état futur d'achèvement,299147,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10051,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454343,2025-02-18,000001,Vente en l'état futur d'achèvement,331000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11619,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454343,2025-02-18,000001,Vente en l'état futur d'achèvement,331000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10070,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454364,2025-02-12,000001,Vente en l'état futur d'achèvement,438020,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,179,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454364,2025-02-12,000001,Vente en l'état futur d'achèvement,438020,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,60,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454364,2025-02-12,000001,Vente en l'état futur d'achèvement,438020,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,91,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454364,2025-02-12,000001,Vente en l'état futur d'achèvement,438020,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,178,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-454396,2025-02-06,000001,Vente en l'état futur d'achèvement,298700,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,463,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454396,2025-02-06,000001,Vente en l'état futur d'achèvement,298700,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,322,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454398,2025-01-29,000001,Vente en l'état futur d'achèvement,291200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,306,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454398,2025-01-29,000001,Vente en l'état futur d'achèvement,291200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,430,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454449,2025-02-11,000001,Vente,155000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,490,66.92,,,,,,,,,1,2,Appartement,69,3,,,,,,2.332382,48.934813
+2025-454449,2025-02-11,000001,Vente,155000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,490,66.92,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332382,48.934813
+2025-454473,2025-02-20,000001,Vente en l'état futur d'achèvement,201000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11179,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454473,2025-02-20,000001,Vente en l'état futur d'achèvement,201000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9012,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454476,2025-02-21,000001,Vente en l'état futur d'achèvement,272570,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11151,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454476,2025-02-21,000001,Vente en l'état futur d'achèvement,272570,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8060,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454476,2025-02-21,000001,Vente en l'état futur d'achèvement,272570,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8056,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454533,2025-02-25,000001,Vente en l'état futur d'achèvement,277000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7075,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454533,2025-02-25,000001,Vente en l'état futur d'achèvement,277000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11415,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454534,2025-02-24,000001,Vente en l'état futur d'achèvement,199500,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11250,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454534,2025-02-24,000001,Vente en l'état futur d'achèvement,199500,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4027,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454554,2025-02-24,000001,Vente en l'état futur d'achèvement,224000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11356,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454554,2025-02-24,000001,Vente en l'état futur d'achèvement,224000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7081,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454568,2025-02-24,000001,Vente en l'état futur d'achèvement,205000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8028,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454568,2025-02-24,000001,Vente en l'état futur d'achèvement,205000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11341,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454577,2025-02-14,000001,Vente,500000,2,,ALL DES AUGUSTINS,0072,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0191,,,6,96.2,,,,,,,,,1,1,Maison,61,4,,,,,,2.332551,48.929364
+2025-454634,2025-02-27,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5122,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454634,2025-02-27,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5069,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454634,2025-02-27,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11184,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454634,2025-02-27,000001,Vente en l'état futur d'achèvement,288000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5059,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454685,2025-02-28,000001,Vente en l'état futur d'achèvement,238000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11421,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454685,2025-02-28,000001,Vente en l'état futur d'achèvement,238000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7046,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454686,2025-02-27,000001,Vente en l'état futur d'achèvement,323700,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11343,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454686,2025-02-27,000001,Vente en l'état futur d'achèvement,323700,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7130,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454686,2025-02-27,000001,Vente en l'état futur d'achèvement,323700,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4012,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454687,2025-03-03,000001,Vente en l'état futur d'achèvement,239000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5030,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454687,2025-03-03,000001,Vente en l'état futur d'achèvement,239000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11050,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454687,2025-03-03,000001,Vente en l'état futur d'achèvement,239000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5019,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454688,2025-03-03,000001,Vente en l'état futur d'achèvement,257000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11140,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454688,2025-03-03,000001,Vente en l'état futur d'achèvement,257000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10094,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454722,2025-02-19,000001,Vente en l'état futur d'achèvement,274200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,326,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454722,2025-02-19,000001,Vente en l'état futur d'achèvement,274200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,402,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-454723,2025-02-24,000001,Vente,416385,24,,RUE FOSSE AUX ASTRES,3575,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0213,,,103,,,,,,,,,,1,,,,,AG,terrains d'agrément,JARD,Jardin d'agrément,43,2.33355,48.938334
+2025-454723,2025-02-24,000001,Vente,416385,24,,RUE FOSSE AUX ASTRES,3575,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0213,,,73,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.33355,48.938334
+2025-454723,2025-02-24,000001,Vente,416385,24,,RUE FOSSE AUX ASTRES,3575,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0213,,,11,119,,,,,,,,,1,1,Maison,104,5,,,,,,2.33355,48.938334
+2025-454723,2025-02-24,000001,Vente,416385,24,,RUE FOSSE AUX ASTRES,3575,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0213,,,118,,,,,,,,,,1,,,,,AG,terrains d'agrément,JARD,Jardin d'agrément,15,2.33355,48.938334
+2025-454768,2025-02-14,000001,Vente,178000,14,,RUE HENRI BARBUSSE,4420,92390,92078,Villeneuve-la-Garenne,92,,,920780000H0143,,,15,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334997,48.936893
+2025-454768,2025-02-14,000001,Vente,178000,14,,RUE HENRI BARBUSSE,4420,92390,92078,Villeneuve-la-Garenne,92,,,920780000H0143,,,74,66.2,,,,,,,,,1,2,Appartement,69,4,,,,,,2.334997,48.936893
+2025-454776,2025-02-26,000001,Vente en l'état futur d'achèvement,9566400,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000L0436,,,,,,,,,,,,,0,,,,,,,,,,2.32693,48.934618
+2025-454776,2025-02-26,000001,Vente en l'état futur d'achèvement,9566400,87,,RUE DU FOND DE LA NOUE,3565,92390,92078,Villeneuve-la-Garenne,92,,,920780000L0437,,,,,,,,,,,,,0,,,,,S,sols,,,375,2.326845,48.934671
+2025-454783,2025-02-21,000001,Vente,103000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,141,,218,27.2,,,,,,,2,3,Dépendance,,0,,,,,,2.33398,48.934561
+2025-454783,2025-02-21,000001,Vente,103000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,141,,218,27.2,,,,,,,2,2,Appartement,26,2,,,,,,2.33398,48.934561
+2025-454857,2025-02-28,000001,Vente en l'état futur d'achèvement,338456,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,99,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334209,48.939489
+2025-454857,2025-02-28,000001,Vente en l'état futur d'achèvement,338456,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,50,,,,,,,,,,1,2,Appartement,68,3,,,,,,2.334209,48.939489
+2025-454887,2025-02-25,000001,Vente,209000,19,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0468,,,205,56.46,,,,,,,,,1,2,Appartement,55,3,,,,,,2.327129,48.943904
+2025-454887,2025-02-25,000001,Vente,209000,19,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0468,,,420,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327129,48.943904
+2025-454928,2025-03-06,000001,Vente en l'état futur d'achèvement,201000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8043,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454928,2025-03-06,000001,Vente en l'état futur d'achèvement,201000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11610,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454946,2025-03-07,000001,Vente en l'état futur d'achèvement,157000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4043,22,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454960,2025-03-07,000001,Vente en l'état futur d'achèvement,207000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11034,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-454960,2025-03-07,000001,Vente en l'état futur d'achèvement,207000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4074,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455029,2025-03-11,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10080,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455029,2025-03-11,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10045,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455029,2025-03-11,000001,Vente en l'état futur d'achèvement,273000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11131,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455047,2025-03-10,000001,Vente en l'état futur d'achèvement,251800,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4006,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455047,2025-03-10,000001,Vente en l'état futur d'achèvement,251800,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11039,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455119,2025-03-12,000001,Vente en l'état futur d'achèvement,392000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11033,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455119,2025-03-12,000001,Vente en l'état futur d'achèvement,392000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4077,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455119,2025-03-12,000001,Vente en l'état futur d'achèvement,392000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4072,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455120,2025-03-12,000001,Vente en l'état futur d'achèvement,212000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8051,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455120,2025-03-12,000001,Vente en l'état futur d'achèvement,212000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8042,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455120,2025-03-12,000001,Vente en l'état futur d'achèvement,212000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11108,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455136,2025-03-13,000001,Vente en l'état futur d'achèvement,259000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455136,2025-03-13,000001,Vente en l'état futur d'achèvement,259000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11204,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455166,2025-03-14,000001,Vente en l'état futur d'achèvement,201000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11032,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455166,2025-03-14,000001,Vente en l'état futur d'achèvement,201000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4075,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455179,2025-03-14,000001,Vente en l'état futur d'achèvement,177441,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4023,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455196,2025-03-14,000001,Vente en l'état futur d'achèvement,259000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5103,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455196,2025-03-14,000001,Vente en l'état futur d'achèvement,259000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11055,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455257,2025-03-04,000001,Vente,250000,11,,ALL DES ACACIAS,0011,92390,92078,Villeneuve-la-Garenne,92,,,920780000L0407,,,201,77,,,,,,,,,1,1,Maison,72,4,,,,,,2.328818,48.932875
+2025-455259,2025-03-18,000001,Vente en l'état futur d'achèvement,219026,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4007,39,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455259,2025-03-18,000001,Vente en l'état futur d'achèvement,219026,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11314,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455262,2025-03-18,000001,Vente en l'état futur d'achèvement,238483,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11635,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455262,2025-03-18,000001,Vente en l'état futur d'achèvement,238483,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10090,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455264,2025-03-17,000001,Vente en l'état futur d'achèvement,380000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11003,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455264,2025-03-17,000001,Vente en l'état futur d'achèvement,380000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4067,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455264,2025-03-17,000001,Vente en l'état futur d'achèvement,380000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4063,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455270,2025-03-17,000001,Vente en l'état futur d'achèvement,196020,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4005,40.5,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455270,2025-03-17,000001,Vente en l'état futur d'achèvement,196020,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11299,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455273,2025-03-17,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10052,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455273,2025-03-17,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11603,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455274,2025-03-19,000001,Vente en l'état futur d'achèvement,196000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9015,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455274,2025-03-19,000001,Vente en l'état futur d'achèvement,196000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11206,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455343,2025-03-19,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11147,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455343,2025-03-19,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5083,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455346,2025-03-19,000001,Vente en l'état futur d'achèvement,200600,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11254,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455346,2025-03-19,000001,Vente en l'état futur d'achèvement,200600,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4034,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455368,2025-03-20,000001,Vente en l'état futur d'achèvement,206000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8039,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455368,2025-03-20,000001,Vente en l'état futur d'achèvement,206000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11605,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455370,2025-03-20,000001,Vente en l'état futur d'achèvement,202475,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8044,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455370,2025-03-20,000001,Vente en l'état futur d'achèvement,202475,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11611,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455391,2025-03-21,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7082,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455391,2025-03-21,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7108,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455413,2025-03-21,000001,Vente en l'état futur d'achèvement,270000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9043,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455413,2025-03-21,000001,Vente en l'état futur d'achèvement,270000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11175,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455429,2025-03-21,000001,Vente en l'état futur d'achèvement,259518,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7114,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455429,2025-03-21,000001,Vente en l'état futur d'achèvement,259518,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11426,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455429,2025-03-21,000001,Vente en l'état futur d'achèvement,259518,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7077,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455442,2025-03-14,000001,Vente,100000,28,B,RUE HENRI BARBUSSE,4420,92390,92078,Villeneuve-la-Garenne,92,,,920780000H0122,,,,,,,,,,,,,0,4,Local industriel. commercial ou assimilé,165,0,S,sols,,,205,2.333108,48.936779
+2025-455443,2025-03-19,000001,Vente,7800,19,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0161,,,,,,,,,,,,,0,,,,,AG,terrains d'agrément,IMM,Dépendances d'ensemble immobilier,156,2.333684,48.93537
+2025-455481,2025-03-18,000001,Vente,372000,37,,RUE DE TREMBLE,9145,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0138,,,,,,,,,,,,,0,1,Maison,101,4,S,sols,,,215,2.331666,48.941009
+2025-455489,2025-03-12,000001,Vente,150000,31,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0302,,,112,,229,51.76,,,,,,,2,2,Appartement,46,2,,,,,,2.330901,48.940239
+2025-455489,2025-03-12,000001,Vente,150000,31,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0302,,,112,,229,51.76,,,,,,,2,3,Dépendance,,0,,,,,,2.330901,48.940239
+2025-455527,2025-03-25,000001,Vente en l'état futur d'achèvement,205000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4054,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455527,2025-03-25,000001,Vente en l'état futur d'achèvement,205000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11007,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455550,2025-03-24,000001,Vente en l'état futur d'achèvement,243413,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5065,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455550,2025-03-24,000001,Vente en l'état futur d'achèvement,243413,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11019,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455664,2025-03-31,000001,Vente en l'état futur d'achèvement,194000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7003,38,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455664,2025-03-31,000001,Vente en l'état futur d'achèvement,194000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11419,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455675,2025-03-27,000001,Vente en l'état futur d'achèvement,286000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5072,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455675,2025-03-27,000001,Vente en l'état futur d'achèvement,286000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11185,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455675,2025-03-27,000001,Vente en l'état futur d'achèvement,286000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5082,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455677,2025-03-28,000001,Vente en l'état futur d'achèvement,323033,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4071,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455677,2025-03-28,000001,Vente en l'état futur d'achèvement,323033,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11292,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455682,2025-03-28,000001,Vente en l'état futur d'achèvement,206000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8032,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455682,2025-03-28,000001,Vente en l'état futur d'achèvement,206000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11575,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455683,2025-03-28,000001,Vente en l'état futur d'achèvement,281000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11219,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455683,2025-03-28,000001,Vente en l'état futur d'achèvement,281000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5075,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455683,2025-03-28,000001,Vente en l'état futur d'achèvement,281000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5080,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455684,2025-03-28,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5079,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455684,2025-03-28,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11028,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455689,2025-03-31,000001,Vente en l'état futur d'achèvement,226000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8061,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455689,2025-03-31,000001,Vente en l'état futur d'achèvement,226000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11106,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455690,2025-03-27,000001,Vente en l'état futur d'achèvement,184000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5020,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455690,2025-03-27,000001,Vente en l'état futur d'achèvement,184000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11010,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455703,2025-03-31,000001,Vente en l'état futur d'achèvement,202000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7035,39,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455703,2025-03-31,000001,Vente en l'état futur d'achèvement,202000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11474,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455704,2025-03-31,000001,Vente en l'état futur d'achèvement,267000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10068,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455704,2025-03-31,000001,Vente en l'état futur d'achèvement,267000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11135,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455750,2025-03-24,000001,Vente en l'état futur d'achèvement,345000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,148,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-455750,2025-03-24,000001,Vente en l'état futur d'achèvement,345000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,88,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-455750,2025-03-24,000001,Vente en l'état futur d'achèvement,345000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,149,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-455759,2025-03-26,000001,Vente en l'état futur d'achèvement,291829,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,166,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-455759,2025-03-26,000001,Vente en l'état futur d'achèvement,291829,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,80,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-455827,2025-03-27,000001,Vente en l'état futur d'achèvement,264000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,170,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-455827,2025-03-27,000001,Vente en l'état futur d'achèvement,264000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,83,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-455892,2025-03-11,000001,Vente en l'état futur d'achèvement,316200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,338,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-455892,2025-03-11,000001,Vente en l'état futur d'achèvement,316200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,458,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-455938,2025-03-28,000001,Vente,170000,142,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0087,,,35,,50,65.99,,,,,,,2,2,Appartement,67,4,,,,,,2.332445,48.92991
+2025-455938,2025-03-28,000001,Vente,170000,142,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0087,,,35,,50,65.99,,,,,,,2,3,Dépendance,,0,,,,,,2.332445,48.92991
+2025-455971,2025-04-02,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11601,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455971,2025-04-02,000001,Vente en l'état futur d'achèvement,203000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10064,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455972,2025-03-26,000001,Vente,152000,4,,IMP JEAN MOULIN,4561,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0298,,,110,54.37,72,,,,,,,,2,3,Dépendance,,0,,,,,,2.330997,48.940827
+2025-455972,2025-03-26,000001,Vente,152000,4,,IMP JEAN MOULIN,4561,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0298,,,110,54.37,72,,,,,,,,2,2,Appartement,53,3,,,,,,2.330997,48.940827
+2025-455978,2025-03-27,000001,Vente,110000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,139,,206,27.2,,,,,,,2,3,Dépendance,,0,,,,,,2.33398,48.934561
+2025-455978,2025-03-27,000001,Vente,110000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,139,,206,27.2,,,,,,,2,2,Appartement,26,2,,,,,,2.33398,48.934561
+2025-455981,2025-04-03,000001,Vente en l'état futur d'achèvement,255000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7033,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-455981,2025-04-03,000001,Vente en l'état futur d'achèvement,255000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11380,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456064,2025-03-27,000001,Vente,200000,66,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0348,,,119,69.74,,,,,,,,,1,2,Appartement,68,4,,,,,,2.329622,48.940747
+2025-456064,2025-03-27,000001,Vente,200000,66,,AV JEAN MOULIN,4560,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0348,,,119,69.74,,,,,,,,,1,3,Dépendance,,0,,,,,,2.329622,48.940747
+2025-456144,2025-04-08,000001,Vente en l'état futur d'achèvement,213000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5031,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456144,2025-04-08,000001,Vente en l'état futur d'achèvement,213000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456145,2025-04-07,000001,Vente en l'état futur d'achèvement,270000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11600,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456145,2025-04-07,000001,Vente en l'état futur d'achèvement,270000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10091,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456151,2025-03-31,000001,Vente,126000,3,,RUE DU ONZE NOVEMBRE 1918,6800,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0190,,,108,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.33433,48.930882
+2025-456151,2025-03-31,000001,Vente,126000,1,,RUE DU ONZE NOVEMBRE 1918,6800,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0190,,,26,31,,,,,,,,,1,2,Appartement,29,1,,,,,,2.33433,48.930882
+2025-456206,2025-03-26,000001,Vente en l'état futur d'achèvement,17000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,176,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-456246,2025-04-04,000001,Vente en l'état futur d'achèvement,338859,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,67,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334209,48.939489
+2025-456246,2025-04-04,000001,Vente en l'état futur d'achèvement,338859,33,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,10,,,,,,,,,,1,2,Appartement,63,3,,,,,,2.334209,48.939489
+2025-456285,2025-04-10,000001,Vente en l'état futur d'achèvement,216000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11333,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456285,2025-04-10,000001,Vente en l'état futur d'achèvement,216000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7027,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456290,2025-04-14,000001,Vente en l'état futur d'achèvement,209000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11016,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456290,2025-04-14,000001,Vente en l'état futur d'achèvement,209000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5013,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456302,2025-04-11,000001,Vente en l'état futur d'achèvement,185000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10055,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456303,2025-04-11,000001,Vente en l'état futur d'achèvement,157000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4001,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456379,2025-04-15,000001,Vente en l'état futur d'achèvement,177441,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7095,25,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456379,2025-04-15,000001,Vente en l'état futur d'achèvement,177441,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7096,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456393,2025-03-27,000001,Vente en l'état futur d'achèvement,213600,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,302,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-456435,2025-03-27,000001,Vente,126200,46,,BD CHARLES DE GAULLE,1449,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0314,,,154,,77,55,,,,,,,2,3,Dépendance,,0,,,,,,2.329436,48.937947
+2025-456435,2025-03-27,000001,Vente,126200,46,,BD CHARLES DE GAULLE,1449,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0314,,,154,,77,55,,,,,,,2,2,Appartement,55,3,,,,,,2.329436,48.937947
+2025-456442,2025-04-16,000001,Vente en l'état futur d'achèvement,337000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456442,2025-04-16,000001,Vente en l'état futur d'achèvement,337000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11071,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456487,2025-04-18,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11014,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456487,2025-04-18,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5120,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456487,2025-04-18,000001,Vente en l'état futur d'achèvement,217000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5071,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456490,2025-04-07,000001,Vente en l'état futur d'achèvement,318000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11149,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456490,2025-04-07,000001,Vente en l'état futur d'achèvement,318000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8064,80,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456491,2025-04-17,000001,Vente en l'état futur d'achèvement,240000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7062,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456491,2025-04-17,000001,Vente en l'état futur d'achèvement,240000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11362,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456492,2025-04-17,000001,Vente en l'état futur d'achèvement,340000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4041,82,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456492,2025-04-17,000001,Vente en l'état futur d'achèvement,340000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11045,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456493,2025-04-22,000001,Vente en l'état futur d'achèvement,295000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4086,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456493,2025-04-22,000001,Vente en l'état futur d'achèvement,295000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11302,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456494,2025-04-18,000001,Vente en l'état futur d'achèvement,194502,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5109,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456592,2025-04-22,000001,Vente en l'état futur d'achèvement,196400,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11293,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456592,2025-04-22,000001,Vente en l'état futur d'achèvement,196400,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4038,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456602,2025-04-23,000001,Vente en l'état futur d'achèvement,284000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8033,60,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456602,2025-04-23,000001,Vente en l'état futur d'achèvement,284000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11607,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456603,2025-04-23,000001,Vente en l'état futur d'achèvement,197400,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11006,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456603,2025-04-23,000001,Vente en l'état futur d'achèvement,197400,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4058,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456651,2025-04-25,000001,Vente en l'état futur d'achèvement,211109,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11376,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456651,2025-04-25,000001,Vente en l'état futur d'achèvement,211109,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5060,37,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456658,2025-04-24,000001,Vente en l'état futur d'achèvement,280000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11414,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456658,2025-04-24,000001,Vente en l'état futur d'achèvement,280000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7119,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456658,2025-04-24,000001,Vente en l'état futur d'achèvement,280000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7024,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456659,2025-04-25,000001,Vente en l'état futur d'achèvement,257401,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11394,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456659,2025-04-25,000001,Vente en l'état futur d'achèvement,257401,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7057,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456660,2025-04-25,000001,Vente en l'état futur d'achèvement,261000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10057,63,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456660,2025-04-25,000001,Vente en l'état futur d'achèvement,261000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11626,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456674,2025-03-31,000001,Vente,145000,3,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,346,55.26,,,,,,,,,1,2,Appartement,56,2,,,,,,2.332382,48.934813
+2025-456675,2025-04-28,000001,Vente en l'état futur d'achèvement,158000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8037,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456677,2025-04-03,000001,Vente en l'état futur d'achèvement,189800,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,316,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-456695,2025-04-28,000001,Vente en l'état futur d'achèvement,281000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10085,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456695,2025-04-28,000001,Vente en l'état futur d'achèvement,281000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11095,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456735,2025-04-28,000001,Vente,167000,55,,RUE DU FOND DE LA NOUE,3565,92390,92078,Villeneuve-la-Garenne,92,,,920780000L0407,,,33,,38,,82,60.5,,,,,3,3,Dépendance,,0,,,,,,2.328818,48.932875
+2025-456735,2025-04-28,000001,Vente,167000,55,,RUE DU FOND DE LA NOUE,3565,92390,92078,Villeneuve-la-Garenne,92,,,920780000L0407,,,33,,38,,82,60.5,,,,,3,3,Dépendance,,0,,,,,,2.328818,48.932875
+2025-456735,2025-04-28,000001,Vente,167000,55,,RUE DU FOND DE LA NOUE,3565,92390,92078,Villeneuve-la-Garenne,92,,,920780000L0407,,,33,,38,,82,60.5,,,,,3,2,Appartement,64,4,,,,,,2.328818,48.932875
+2025-456761,2025-04-30,000001,Vente en l'état futur d'achèvement,251000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8057,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456761,2025-04-30,000001,Vente en l'état futur d'achèvement,251000,,,RUE DE LA BONGARDE,0657,92390,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11318,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456769,2025-04-30,000001,Vente en l'état futur d'achèvement,325308,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10062,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456769,2025-04-30,000001,Vente en l'état futur d'achèvement,325308,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10012,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456769,2025-04-30,000001,Vente en l'état futur d'achèvement,325308,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11625,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456770,2025-04-29,000001,Vente en l'état futur d'achèvement,192000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11418,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456770,2025-04-29,000001,Vente en l'état futur d'achèvement,192000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7004,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456771,2025-04-30,000001,Vente en l'état futur d'achèvement,261000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11615,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456771,2025-04-30,000001,Vente en l'état futur d'achèvement,261000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10005,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456787,2025-04-29,000001,Vente,160000,29,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0350,,,114,56.82,,,,,,,,,1,2,Appartement,58,2,,,,,,2.32662,48.944064
+2025-456787,2025-04-29,000001,Vente,160000,29,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0350,,,12,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.32662,48.944064
+2025-456858,2025-05-07,000001,Vente,275000,14,,RUE MATHILDE MILLIARD,6115,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0050,,,,,,,,,,,,,0,1,Maison,58,3,S,sols,,,198,2.334131,48.938686
+2025-456918,2025-05-07,000001,Vente en l'état futur d'achèvement,287000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5046,62,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456918,2025-05-07,000001,Vente en l'état futur d'achèvement,287000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11214,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456918,2025-05-07,000001,Vente en l'état futur d'achèvement,287000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5056,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456918,2025-05-07,000001,Vente en l'état futur d'achèvement,287000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5111,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456935,2025-04-29,000001,Vente en l'état futur d'achèvement,312608,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,83,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334209,48.939489
+2025-456935,2025-04-29,000001,Vente en l'état futur d'achèvement,312608,34,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,31,,,,,,,,,,1,2,Appartement,67,3,,,,,,2.334209,48.939489
+2025-456947,2025-04-25,000001,Vente,45000,15,B,BD CHARLES DE GAULLE,1449,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0113,,,1,21,,,,,,,,,1,4,Local industriel. commercial ou assimilé,21,0,,,,,,2.330427,48.936861
+2025-456950,2025-05-14,000001,Vente en l'état futur d'achèvement,300284,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11396,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456950,2025-05-14,000001,Vente en l'état futur d'achèvement,300284,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7010,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456950,2025-05-14,000001,Vente en l'état futur d'achèvement,300284,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7016,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456973,2025-05-13,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11076,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456973,2025-05-13,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8063,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456977,2025-05-13,000001,Vente en l'état futur d'achèvement,280000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11148,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-456977,2025-05-13,000001,Vente en l'état futur d'achèvement,280000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8047,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457002,2025-05-15,000001,Vente en l'état futur d'achèvement,202000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8013,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457002,2025-05-15,000001,Vente en l'état futur d'achèvement,202000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11077,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457003,2025-05-14,000001,Vente en l'état futur d'achèvement,226351,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4055,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457003,2025-05-14,000001,Vente en l'état futur d'achèvement,226351,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11009,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457014,2025-04-29,000001,Vente,105000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,333,21.73,,,,,,,,,1,2,Appartement,22,1,,,,,,2.327666,48.92669
+2025-457035,2025-05-15,000001,Vente en l'état futur d'achèvement,277000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9008,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457035,2025-05-15,000001,Vente en l'état futur d'achèvement,277000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11193,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457039,2025-05-15,000001,Vente en l'état futur d'achèvement,195000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11213,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457039,2025-05-15,000001,Vente en l'état futur d'achèvement,195000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5047,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457040,2025-05-16,000001,Vente en l'état futur d'achèvement,193000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10107,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457041,2025-05-16,000001,Vente en l'état futur d'achèvement,261900,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10038,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457041,2025-05-16,000001,Vente en l'état futur d'achèvement,261900,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11090,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457043,2025-05-16,000001,Vente en l'état futur d'achèvement,229763,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4082,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457043,2025-05-16,000001,Vente en l'état futur d'achèvement,229763,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11004,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457086,2025-05-07,000001,Vente,165000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,206,47.18,,,,,,,,,1,2,Appartement,50,2,,,,,,2.327719,48.935403
+2025-457086,2025-05-07,000001,Vente,165000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,140,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-457086,2025-05-07,000001,Vente,165000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,206,47.18,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-457090,2025-04-04,000001,Vente en l'état futur d'achèvement,306894,35,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,57,,,,,,,,,,1,2,Appartement,53,3,,,,,,2.334209,48.939489
+2025-457090,2025-04-04,000001,Vente en l'état futur d'achèvement,306894,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,93,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334209,48.939489
+2025-457155,2025-04-30,000001,Vente,154000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,189,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-457155,2025-04-30,000001,Vente,154000,72,B,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,248,45.6,,,,,,,,,1,2,Appartement,41,2,,,,,,2.327719,48.935403
+2025-457219,2025-05-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5113,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457219,2025-05-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5104,45,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457219,2025-05-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11048,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457221,2025-05-19,000001,Vente en l'état futur d'achèvement,326000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5003,78.53,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457221,2025-05-19,000001,Vente en l'état futur d'achèvement,326000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11187,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457226,2025-05-20,000001,Vente en l'état futur d'achèvement,202000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11288,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457226,2025-05-20,000001,Vente en l'état futur d'achèvement,202000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4047,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457227,2025-05-15,000001,Vente,19000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,118,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-457230,2025-05-20,000001,Vente en l'état futur d'achèvement,200000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11173,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457230,2025-05-20,000001,Vente en l'état futur d'achèvement,200000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9037,39.67,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457252,2025-05-23,000001,Vente en l'état futur d'achèvement,341232,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11129,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457252,2025-05-23,000001,Vente en l'état futur d'achèvement,341232,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10013,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457252,2025-05-23,000001,Vente en l'état futur d'achèvement,341232,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10083,59.71,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457253,2025-05-23,000001,Vente en l'état futur d'achèvement,219526,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11115,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457253,2025-05-23,000001,Vente en l'état futur d'achèvement,219526,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5038,37.82,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457255,2025-05-23,000001,Vente en l'état futur d'achèvement,204000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11346,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457255,2025-05-23,000001,Vente en l'état futur d'achèvement,204000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4018,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457262,2025-05-14,000001,Vente,176000,9,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,444,69.8,,,,,,,,,1,2,Appartement,69,3,,,,,,2.332382,48.934813
+2025-457262,2025-05-14,000001,Vente,176000,9,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,444,69.8,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332382,48.934813
+2025-457287,2025-05-27,000001,Vente en l'état futur d'achèvement,211000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5025,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457287,2025-05-27,000001,Vente en l'état futur d'achèvement,211000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11211,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457297,2025-05-27,000001,Vente en l'état futur d'achèvement,279000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11089,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457297,2025-05-27,000001,Vente en l'état futur d'achèvement,279000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10050,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457300,2025-05-26,000001,Vente en l'état futur d'achèvement,288000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11063,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457300,2025-05-26,000001,Vente en l'état futur d'achèvement,288000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4049,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457306,2025-05-27,000001,Vente en l'état futur d'achèvement,197000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4035,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457306,2025-05-27,000001,Vente en l'état futur d'achèvement,197000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11252,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457307,2025-05-19,000001,Vente en l'état futur d'achèvement,198000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5035,50,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457307,2025-05-19,000001,Vente en l'état futur d'achèvement,198000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11156,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457308,2025-05-21,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11334,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457308,2025-05-21,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7014,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457308,2025-05-21,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7124,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457310,2025-05-26,000001,Vente en l'état futur d'achèvement,223000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8062,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457310,2025-05-26,000001,Vente en l'état futur d'achèvement,223000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11100,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457321,2025-05-14,000001,Vente,20000,,,CHE DES RENIERS,8135,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0199,,,,,,,,,,,,,0,,,,,S,sols,,,355,2.321561,48.931774
+2025-457365,2025-05-16,000001,Vente,195000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,135,,195,77.55,,,,,,,2,3,Dépendance,,0,,,,,,2.33398,48.934561
+2025-457365,2025-05-16,000001,Vente,195000,208,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0283,,,135,,195,77.55,,,,,,,2,2,Appartement,81,4,,,,,,2.33398,48.934561
+2025-457366,2025-05-27,000001,Vente en l'état futur d'achèvement,272849,34,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,19,,,,,,,,,,1,2,Appartement,61,3,,,,,,2.334209,48.939489
+2025-457366,2025-05-27,000001,Vente en l'état futur d'achèvement,272849,32,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0221,,,71,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334209,48.939489
+2025-457367,2025-05-28,000001,Vente en l'état futur d'achèvement,329890,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10024,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457367,2025-05-28,000001,Vente en l'état futur d'achèvement,329890,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7126,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457367,2025-05-28,000001,Vente en l'état futur d'achèvement,329890,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11630,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457368,2025-06-02,000001,Vente en l'état futur d'achèvement,286000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11172,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457368,2025-06-02,000001,Vente en l'état futur d'achèvement,286000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9030,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457368,2025-06-02,000001,Vente en l'état futur d'achèvement,286000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7103,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457369,2025-06-02,000001,Vente en l'état futur d'achèvement,247000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4078,64,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457369,2025-06-02,000001,Vente en l'état futur d'achèvement,247000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11300,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457379,2025-06-02,000001,Vente en l'état futur d'achèvement,155000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457454,2025-06-04,000001,Vente en l'état futur d'achèvement,236000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5007,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457454,2025-06-04,000001,Vente en l'état futur d'achèvement,236000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11051,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457454,2025-06-04,000001,Vente en l'état futur d'achèvement,236000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5118,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457458,2025-06-05,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4028,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457458,2025-06-05,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11251,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457458,2025-06-05,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7128,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457476,2025-05-20,000001,Vente en l'état futur d'achèvement,317133,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,47,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-457476,2025-05-20,000001,Vente en l'état futur d'achèvement,317133,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,140,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-457498,2025-06-05,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9028,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457498,2025-06-05,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11174,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457498,2025-06-05,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5112,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457498,2025-06-05,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9022,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457564,2025-06-10,000001,Vente en l'état futur d'achèvement,186540,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5105,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457564,2025-06-10,000001,Vente en l'état futur d'achèvement,186540,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11013,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457575,2025-06-10,000001,Vente en l'état futur d'achèvement,360000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11123,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457575,2025-06-10,000001,Vente en l'état futur d'achèvement,360000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8046,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457575,2025-06-10,000001,Vente en l'état futur d'achèvement,360000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8053,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457579,2025-06-10,000001,Vente en l'état futur d'achèvement,156000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4033,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457598,2025-06-11,000001,Vente en l'état futur d'achèvement,227488,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5074,41,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457598,2025-06-11,000001,Vente en l'état futur d'achèvement,227488,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11154,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457602,2025-06-11,000001,Vente en l'état futur d'achèvement,163791,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9031,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457634,2025-06-13,000001,Vente en l'état futur d'achèvement,281000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9060,63,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457634,2025-06-13,000001,Vente en l'état futur d'achèvement,281000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11200,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457634,2025-06-13,000001,Vente en l'état futur d'achèvement,281000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9064,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457667,2025-05-27,000001,Vente en l'état futur d'achèvement,289200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,317,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-457667,2025-05-27,000001,Vente en l'état futur d'achèvement,289200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,432,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-457671,2025-05-27,000001,Vente en l'état futur d'achèvement,312200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,423,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-457671,2025-05-27,000001,Vente en l'état futur d'achèvement,312200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,305,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-457705,2025-06-13,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11612,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457705,2025-06-13,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8054,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457705,2025-06-13,000001,Vente en l'état futur d'achèvement,290000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8045,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457707,2025-06-16,000001,Vente en l'état futur d'achèvement,198475,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4017,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457707,2025-06-16,000001,Vente en l'état futur d'achèvement,198475,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11345,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457711,2025-06-13,000001,Vente en l'état futur d'achèvement,215000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5057,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457711,2025-06-13,000001,Vente en l'état futur d'achèvement,215000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11023,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457794,2025-06-18,000001,Vente en l'état futur d'achèvement,154000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8004,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457795,2025-06-06,000001,Vente,327200,18,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0471,,,13,84.57,,,,,,,,,1,2,Appartement,84,4,,,,,,2.328803,48.943936
+2025-457795,2025-06-06,000001,Vente,327200,18,,AV DU PONANT,7155,92390,92078,Villeneuve-la-Garenne,92,,,920780000D0471,,,67,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.328803,48.943936
+2025-457797,2025-05-28,000001,Vente en l'état futur d'achèvement,185505,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,15,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-457797,2025-05-28,000001,Vente en l'état futur d'achèvement,185505,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,164,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-457806,2025-06-17,000001,Vente en l'état futur d'achèvement,235450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7106,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457806,2025-06-17,000001,Vente en l'état futur d'achèvement,235450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7029,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457806,2025-06-17,000001,Vente en l'état futur d'achèvement,235450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11326,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457808,2025-05-28,000001,Vente en l'état futur d'achèvement,286554,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,158,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-457808,2025-05-28,000001,Vente en l'état futur d'achèvement,286554,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,69,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-457832,2025-06-20,000001,Vente en l'état futur d'achèvement,249987,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7045,39,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457832,2025-06-20,000001,Vente en l'état futur d'achèvement,249987,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11354,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457833,2025-06-20,000001,Vente en l'état futur d'achèvement,246910,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7053,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457833,2025-06-20,000001,Vente en l'état futur d'achèvement,246910,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11332,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457834,2025-06-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7122,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457834,2025-06-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,1038,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457834,2025-06-19,000001,Vente en l'état futur d'achèvement,225000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11521,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457835,2025-06-19,000001,Vente en l'état futur d'achèvement,157000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8026,22,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457836,2025-06-20,000001,Vente en l'état futur d'achèvement,235000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11150,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457836,2025-06-20,000001,Vente en l'état futur d'achèvement,235000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8058,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457837,2025-06-20,000001,Vente en l'état futur d'achèvement,204000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11248,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457837,2025-06-20,000001,Vente en l'état futur d'achèvement,204000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4024,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457840,2025-06-23,000001,Vente en l'état futur d'achèvement,256000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7006,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457840,2025-06-23,000001,Vente en l'état futur d'achèvement,256000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7002,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457840,2025-06-23,000001,Vente en l'état futur d'achèvement,256000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11358,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457876,2025-06-10,000001,Vente,122000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,428,22.58,,,,,,,,,1,2,Appartement,22,1,,,,,,2.327666,48.92669
+2025-457881,2025-06-23,000001,Vente en l'état futur d'achèvement,284000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7107,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457881,2025-06-23,000001,Vente en l'état futur d'achèvement,284000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11428,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457881,2025-06-23,000001,Vente en l'état futur d'achèvement,284000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7042,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457883,2025-06-24,000001,Vente en l'état futur d'achèvement,371450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7117,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457883,2025-06-24,000001,Vente en l'état futur d'achèvement,371450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7069,79.71,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457883,2025-06-24,000001,Vente en l'état futur d'achèvement,371450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11423,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457885,2025-06-24,000001,Vente en l'état futur d'achèvement,134880,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,1040,21.29,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457885,2025-06-24,000001,Vente en l'état futur d'achèvement,134880,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11505,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457962,2025-06-25,000001,Vente en l'état futur d'achèvement,248000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5102,40,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457962,2025-06-25,000001,Vente en l'état futur d'achèvement,248000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11052,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457968,2025-06-25,000001,Vente en l'état futur d'achèvement,198000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5086,41,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457968,2025-06-25,000001,Vente en l'état futur d'achèvement,198000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11112,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-457990,2025-06-11,000001,Vente en l'état futur d'achèvement,7000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,89,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-457993,2025-06-19,000002,Vente,23850,,,BD CHARLES DE GAULLE,1449,92390,92078,Villeneuve-la-Garenne,92,,,920780000B0166,,,,,,,,,,,,,0,,,,,S,sols,,,175,2.316813,48.943012
+2025-458001,2025-06-26,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8019,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458001,2025-06-26,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8008,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458001,2025-06-26,000001,Vente en l'état futur d'achèvement,217000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11074,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458003,2025-06-26,000001,Vente en l'état futur d'achèvement,335160,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10032,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458003,2025-06-26,000001,Vente en l'état futur d'achèvement,335160,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11056,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458004,2025-06-27,000001,Vente en l'état futur d'achèvement,236000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11101,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458004,2025-06-27,000001,Vente en l'état futur d'achèvement,236000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,8006,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458018,2025-06-27,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11336,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458018,2025-06-27,000001,Vente en l'état futur d'achèvement,208000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7060,42,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458022,2025-06-18,000001,Vente en l'état futur d'achèvement,304200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,462,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-458022,2025-06-18,000001,Vente en l'état futur d'achèvement,304200,61,,QUAI D ASNIERES,0060,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,319,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-458029,2025-06-20,000001,Vente,109000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,319,22.31,,,,,,,,,1,2,Appartement,22,1,,,,,,2.327666,48.92669
+2025-458033,2025-06-27,000001,Vente en l'état futur d'achèvement,237725,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,7030,46,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458033,2025-06-27,000001,Vente en l'état futur d'achèvement,237725,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11335,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458034,2025-06-27,000001,Vente en l'état futur d'achèvement,186000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,5108,34,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458034,2025-06-27,000001,Vente en l'état futur d'achèvement,186000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11011,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458035,2025-06-19,000001,Vente,128000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,462,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327666,48.92669
+2025-458035,2025-06-19,000001,Vente,128000,39,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0175,,,265,28.25,,,,,,,,,1,2,Appartement,28,1,,,,,,2.327666,48.92669
+2025-458038,2025-06-19,000001,Vente,15000,14,,RUE HENRI BARBUSSE,4420,92390,92078,Villeneuve-la-Garenne,92,,,920780000H0143,,,9,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.334997,48.936893
+2025-458057,2025-06-19,000001,Vente,130000,15,,AV PAUL HERBE,6655,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0308,,,109,,41,53.75,,,,,,,2,3,Dépendance,,0,,,,,,2.325915,48.939675
+2025-458057,2025-06-19,000001,Vente,130000,15,,AV PAUL HERBE,6655,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0308,,,109,,41,53.75,,,,,,,2,2,Appartement,53,3,,,,,,2.325915,48.939675
+2025-458058,2025-06-19,000001,Vente,20000,3,,RUE FOSSE AUX ASTRES,3575,92390,92078,Villeneuve-la-Garenne,92,,,920780000F0307,,,19,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332214,48.937354
+2025-458067,2025-06-30,000001,Vente en l'état futur d'achèvement,200970,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11165,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458067,2025-06-30,000001,Vente en l'état futur d'achèvement,200970,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9005,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458070,2025-06-30,000001,Vente en l'état futur d'achèvement,175000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,10036,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458073,2025-06-30,000001,Vente en l'état futur d'achèvement,218540,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11181,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458073,2025-06-30,000001,Vente en l'état futur d'achèvement,218540,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9038,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458073,2025-06-30,000001,Vente en l'état futur d'achèvement,218540,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,9029,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458074,2025-06-30,000001,Vente en l'état futur d'achèvement,266750,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,4029,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458074,2025-06-30,000001,Vente en l'état futur d'achèvement,266750,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11070,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458087,2025-06-30,000001,Vente en l'état futur d'achèvement,276450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,1021,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458087,2025-06-30,000001,Vente en l'état futur d'achèvement,276450,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000O0089,,,11449,,,,,,,,,,1,,,,,,,,,,2.326187,48.924961
+2025-458097,2025-06-18,000001,Vente en l'état futur d'achèvement,422496,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,157,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-458097,2025-06-18,000001,Vente en l'état futur d'achèvement,422496,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0249,,,77,,,,,,,,,,1,,,,,,,,,,2.327029,48.927197
+2025-458124,2025-06-12,000001,Vente en l'état futur d'achèvement,287000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,50,66.1,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458124,2025-06-12,000001,Vente en l'état futur d'achèvement,287000,11,,AV MARC SANGNIER,5152,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,146,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458150,2025-06-20,000001,Vente,10000,67,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000N0243,,,7066,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327009,48.926443
+2025-458180,2025-06-10,000001,Vente en l'état futur d'achèvement,365000,24,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0054,,,127,,,,,,,,,,1,,,,,,,,,,2.335188,48.938541
+2025-458180,2025-06-10,000001,Vente en l'état futur d'achèvement,365000,24,,QUAI ALFRED SISLEY,0037,92390,92078,Villeneuve-la-Garenne,92,,,920780000E0054,,,64,,,,,,,,,,1,,,,,,,,,,2.335188,48.938541
+2025-458201,2025-06-26,000001,Vente,130000,142,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0087,,,34,,51,55.35,,,,,,,2,3,Dépendance,,0,,,,,,2.332445,48.92991
+2025-458201,2025-06-26,000001,Vente,130000,142,,BD GALLIENI,4115,92390,92078,Villeneuve-la-Garenne,92,,,920780000K0087,,,34,,51,55.35,,,,,,,2,2,Appartement,54,3,,,,,,2.332445,48.92991
+2025-458204,2025-06-25,000001,Vente,190000,72,B,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,229,82.37,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-458204,2025-06-25,000001,Vente,190000,72,B,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,229,82.37,,,,,,,,,1,2,Appartement,80,4,,,,,,2.327719,48.935403
+2025-458204,2025-06-25,000001,Vente,190000,64,,AV DE VERDUN,9160,92390,92078,Villeneuve-la-Garenne,92,,,920780000G0375,,,194,,,,,,,,,,1,3,Dépendance,,0,,,,,,2.327719,48.935403
+2025-458268,2025-06-26,000001,Vente,396000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,517,79.23,,,,,,,,,1,2,Appartement,81,4,,,,,,2.332382,48.934813
+2025-458268,2025-06-26,000001,Vente,396000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,517,79.23,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332382,48.934813
+2025-458268,2025-06-26,000001,Vente,396000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,552,79.5,,,,,,,,,1,3,Dépendance,,0,,,,,,2.332382,48.934813
+2025-458268,2025-06-26,000001,Vente,396000,10,,PL ANDRE MALRAUX,0043,92390,92078,Villeneuve-la-Garenne,92,,,920780000I0314,,,552,79.5,,,,,,,,,1,2,Appartement,81,4,,,,,,2.332382,48.934813
+2025-458298,2025-06-25,000001,Vente en l'état futur d'achèvement,477000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,90,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458298,2025-06-25,000001,Vente en l'état futur d'achèvement,477000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,32,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458298,2025-06-25,000001,Vente en l'état futur d'achèvement,477000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,139,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458303,2025-06-26,000001,Vente en l'état futur d'achèvement,188000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,134,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458303,2025-06-26,000001,Vente en l'état futur d'achèvement,188000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,29,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458306,2025-06-24,000001,Vente en l'état futur d'achèvement,356800,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,311,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-458306,2025-06-24,000001,Vente en l'état futur d'achèvement,356800,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000K0051,,,476,,,,,,,,,,1,,,,,,,,,,2.333476,48.929386
+2025-458308,2025-06-26,000001,Vente en l'état futur d'achèvement,333000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,158,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
+2025-458308,2025-06-26,000001,Vente en l'état futur d'achèvement,333000,,,,,,92078,Villeneuve-la-Garenne,92,,,920780000N0247,,,81,,,,,,,,,,1,,,,,,,,,,2.326836,48.926965
