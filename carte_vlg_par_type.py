@@ -189,8 +189,9 @@ def build_map(data, title, subtitle, min_cluster_size, out_path):
     # Heatmap (intensité = prix/m², cohérent avec la coloration des marqueurs)
     heat_w = data[["latitude","longitude","prix_m2"]].dropna(subset=["prix_m2"]).copy()
     if len(heat_w) > 0:
-        vmin_h, vmax_h = heat_w["prix_m2"].min(), heat_w["prix_m2"].max()
-        heat_w["w"] = (heat_w["prix_m2"] - vmin_h) / (vmax_h - vmin_h + 1)
+        p75_h = valid.quantile(0.75)
+        vmin_h, vmax_h = p5, p75_h
+        heat_w["w"] = (heat_w["prix_m2"].clip(vmin_h, vmax_h) - vmin_h) / (vmax_h - vmin_h + 1)
         hfg = folium.FeatureGroup(name="🌡️ Heatmap (intensité prix/m²)", show=False)
         HeatMap(
             heat_w[["latitude","longitude","w"]].values.tolist(),
