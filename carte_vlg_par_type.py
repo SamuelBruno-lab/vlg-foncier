@@ -36,6 +36,16 @@ raw["prix_m2"] = np.where(raw["surface_reelle_bati"] > 0,
                           raw["valeur_fonciere"] / raw["surface_reelle_bati"], np.nan)
 raw = raw.dropna(subset=["valeur_fonciere"])
 
+# Suppression des outliers DVF aberrants par type (données manifestement erronées)
+SEUIL_PRIX_M2 = {"Maison": 9000, "Appartement": 12000,
+                 "Local industriel. commercial ou assimilé": 12000}
+for tl, seuil in SEUIL_PRIX_M2.items():
+    mask = (raw["type_local"] == tl) & (raw["prix_m2"] > seuil)
+    n = mask.sum()
+    if n:
+        print(f"Suppression {n} outliers {tl} > {seuil} €/m²")
+    raw = raw[~mask]
+
 # ── 2. Jitter sur les coordonnées dupliquées ──────────────────────────────────
 # Décale les points superposés en spirale (rayon ~12 m max)
 def apply_jitter(df, radius_deg=0.0001):
