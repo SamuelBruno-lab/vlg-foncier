@@ -28,6 +28,8 @@ raw = pd.concat(frames, ignore_index=True)
 raw = raw.dropna(subset=["latitude", "longitude", "valeur_fonciere"])
 raw = raw[raw["valeur_fonciere"] > 0]
 raw = raw.drop_duplicates(subset=["id_mutation", "id_parcelle"])
+# Exclusion des VEFA : prix total programme promoteur, non comparable au marché de revente
+raw = raw[raw["nature_mutation"] != "Vente en l'état futur d'achèvement"]
 raw["valeur_fonciere"]     = pd.to_numeric(raw["valeur_fonciere"],     errors="coerce")
 raw["surface_reelle_bati"] = pd.to_numeric(raw["surface_reelle_bati"], errors="coerce")
 raw["surface_terrain"]     = pd.to_numeric(raw["surface_terrain"],     errors="coerce")
