@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import dynamic from "next/dynamic";
 import FilterPanel from "@/components/FilterPanel";
 import LeadModal from "@/components/LeadModal";
+import CookieBanner from "@/components/CookieBanner";
 import type { DvfFilters, DvfPoint, DvfCluster } from "@/types/dvf";
 
 // DvfMap importé dynamiquement (WebGL, no SSR)
@@ -306,6 +307,9 @@ export default function HomePage() {
       {showLeadModal && (
         <LeadModal onClose={() => setShowLeadModal(false)} />
       )}
+
+      {/* Bandeau cookies */}
+      <CookieBanner />
 
       <style>{`
         @keyframes pulse {
