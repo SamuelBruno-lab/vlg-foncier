@@ -113,7 +113,8 @@ copyright_div = '<div id="copyright-banner">© 2026 Samuel Bruno — Tous droits
 
 
 # ── 4. Génération d'une carte ─────────────────────────────────────────────────
-def build_map(data, title, subtitle, min_cluster_size, out_path):
+def build_map(data, title, subtitle, min_cluster_size, out_path,
+              cluster_selection_method="eom", min_samples=2):
     if data.empty:
         print(f"Aucune donnée pour {title}, skip.")
         return
@@ -125,9 +126,9 @@ def build_map(data, title, subtitle, min_cluster_size, out_path):
     coords = np.radians(data[["latitude", "longitude"]].values)
     cl = hdbscan.HDBSCAN(
         min_cluster_size=min_cluster_size,
-        min_samples=2,
+        min_samples=min_samples,
         metric="haversine",
-        cluster_selection_method="eom",
+        cluster_selection_method=cluster_selection_method,
     )
     data = data.copy()
     data["cluster"] = cl.fit_predict(coords)
@@ -394,7 +395,9 @@ build_map(
     data=raw[raw["type_local"] == "Appartement"].copy(),
     title="Appartements",
     subtitle="Villeneuve-la-Garenne · 2020–2025",
-    min_cluster_size=10,
+    min_cluster_size=31,   # ≈8% × 386 tx → 6 zones
+    min_samples=3,
+    cluster_selection_method="eom",
     out_path="/home/user/carte_vlg_appartements.html",
 )
 
@@ -402,7 +405,9 @@ build_map(
     data=raw[raw["type_local"] == "Maison"].copy(),
     title="Maisons / Pavillons",
     subtitle="Villeneuve-la-Garenne · 2020–2025",
-    min_cluster_size=5,
+    min_cluster_size=6,    # leaf : distingue Sorbiers vs Bouleaux Blancs (~150m)
+    min_samples=2,
+    cluster_selection_method="leaf",
     out_path="/home/user/carte_vlg_maisons.html",
 )
 
@@ -410,6 +415,8 @@ build_map(
     data=raw[raw["type_local"] == "Local industriel. commercial ou assimilé"].copy(),
     title="Commerces / Locaux d'activités / Entrepôts",
     subtitle="Villeneuve-la-Garenne · 2020–2025",
-    min_cluster_size=4,
+    min_cluster_size=5,    # ≈8% × 45 tx, plancher 5
+    min_samples=2,
+    cluster_selection_method="eom",
     out_path="/home/user/carte_vlg_commerces.html",
 )
