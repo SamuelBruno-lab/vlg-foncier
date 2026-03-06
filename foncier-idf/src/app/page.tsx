@@ -1,11 +1,14 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
+import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import FilterPanel from "@/components/FilterPanel";
 import LeadModal from "@/components/LeadModal";
 import CookieBanner from "@/components/CookieBanner";
 import type { DvfFilters, DvfPoint, DvfCluster } from "@/types/dvf";
+
+type CommuneSuggestion = { code: string; nom: string };
 
 // DvfMap importé dynamiquement (WebGL, no SSR)
 const DvfMap = dynamic(() => import("@/components/DvfMap"), {
@@ -30,6 +33,7 @@ const DvfMap = dynamic(() => import("@/components/DvfMap"), {
 });
 
 export default function HomePage() {
+  const router = useRouter();
   const [filters, setFilters] = useState<DvfFilters>({});
   const [mode, setMode] = useState<"points" | "clusters" | "heatmap">("clusters");
   const [points, setPoints] = useState<DvfPoint[]>([]);
@@ -39,6 +43,37 @@ export default function HomePage() {
   const [showHero, setShowHero] = useState(true);
   const [showLeadModal, setShowLeadModal] = useState(false);
   const didCheckModal = useRef(false);
+
+  // Recherche commune
+  const [searchQuery, setSearchQuery] = useState("");
+  const [suggestions, setSuggestions] = useState<CommuneSuggestion[]>([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (searchQuery.length < 2) { setSuggestions([]); return; }
+    const timer = setTimeout(async () => {
+      setSearchLoading(true);
+      try {
+        const res = await fetch(`/api/communes/search?q=${encodeURIComponent(searchQuery)}`);
+        setSuggestions(await res.json());
+      } finally {
+        setSearchLoading(false);
+      }
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Fermer dropdown si clic extérieur
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
+        setSuggestions([]);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
 
   const fetchData = useCallback(async () => {
     setIsLoading(true);
@@ -218,6 +253,71 @@ export default function HomePage() {
             ))}
           </div>
 
+          {/* Barre de recherche commune */}
+          <div ref={searchRef} style={{ position: "relative", width: "100%", maxWidth: 480, marginBottom: 24 }}>
+            <div style={{ position: "relative" }}>
+              <span style={{
+                position: "absolute", left: 16, top: "50%", transform: "translateY(-50%)",
+                fontSize: 18, pointerEvents: "none"
+              }}>🔍</span>
+              <input
+                type="text"
+                placeholder="Rechercher une commune IDF…"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                style={{
+                  width: "100%",
+                  padding: "14px 16px 14px 46px",
+                  borderRadius: 12,
+                  border: "1.5px solid rgba(0,212,255,0.4)",
+                  background: "rgba(10,10,30,0.85)",
+                  color: "#fff",
+                  fontSize: 16,
+                  fontFamily: "Segoe UI, sans-serif",
+                  outline: "none",
+                  boxSizing: "border-box",
+                  boxShadow: "0 0 20px rgba(0,212,255,0.15)",
+                }}
+              />
+              {searchLoading && (
+                <span style={{ position: "absolute", right: 14, top: "50%", transform: "translateY(-50%)", color: "#00d4ff", fontSize: 13 }}>
+                  …
+                </span>
+              )}
+            </div>
+            {suggestions.length > 0 && (
+              <div style={{
+                position: "absolute", top: "calc(100% + 4px)", left: 0, right: 0,
+                background: "#0d0d2b", border: "1px solid rgba(0,212,255,0.3)",
+                borderRadius: 10, overflow: "hidden", zIndex: 2000,
+                boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
+              }}>
+                {suggestions.map((s) => (
+                  <div
+                    key={s.code}
+                    onClick={() => router.push(`/analyse/${s.code}`)}
+                    style={{
+                      padding: "11px 16px",
+                      cursor: "pointer",
+                      color: "#fff",
+                      fontFamily: "Segoe UI, sans-serif",
+                      fontSize: 14,
+                      borderBottom: "1px solid rgba(255,255,255,0.06)",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                    onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(0,212,255,0.1)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+                  >
+                    <span>{s.nom}</span>
+                    <span style={{ fontSize: 12, color: "rgba(255,255,255,0.35)" }}>{s.code}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
           {/* CTAs */}
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: "center" }}>
             <button
@@ -275,7 +375,7 @@ export default function HomePage() {
               fontFamily: "Segoe UI, sans-serif",
             }}
           >
-            datamerry.com · Par Villeneuve-la-Garenne · Source DVF data.gouv.fr
+            datamerry.com · Observatoire foncier Île-de-France · Source DVF data.gouv.fr
           </div>
         </div>
       )}
