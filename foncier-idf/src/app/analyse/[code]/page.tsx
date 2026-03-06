@@ -15,6 +15,22 @@ interface TypeRow {
   prix_m2_median: number | null;
 }
 
+interface HdbscanZone {
+  id: string;
+  type_local: string;
+  cluster_id: number;
+  count: number;
+  prix_m2_median: number | null;
+  prix_m2_p25: number | null;
+  prix_m2_p75: number | null;
+  prix_median: number | null;
+  hull_coords: [number, number][] | null;
+  centroid_lat: number | null;
+  centroid_lon: number | null;
+  annee_min: number | null;
+  annee_max: number | null;
+}
+
 interface CommuneStats {
   code: string;
   nom: string;
@@ -23,6 +39,7 @@ interface CommuneStats {
   prix_m2_median: number;
   byType: TypeRow[];
   evolution: EvolutionRow[];
+  hdbscanZones: HdbscanZone[];
 }
 
 function median(arr: number[]): number {
@@ -52,6 +69,15 @@ async function getCommuneStats(code: string): Promise<CommuneStats | null> {
     .select("annee,prix_m2")
     .eq("code_commune", code)
     .limit(5000);
+
+  const { data: hdbscanZones } = await supabase
+    .from("dvf_hdbscan_zones")
+    .select(
+      "id,type_local,cluster_id,count,prix_m2_median,prix_m2_p25,prix_m2_p75,prix_median,hull_coords,centroid_lat,centroid_lon,annee_min,annee_max"
+    )
+    .eq("code_commune", code)
+    .order("type_local")
+    .order("cluster_id");
 
   const byYear: Record<number, { prices: number[]; count: number }> = {};
   for (const p of points ?? []) {
@@ -84,6 +110,7 @@ async function getCommuneStats(code: string): Promise<CommuneStats | null> {
       prix_m2_median: c.prix_m2_median,
     })),
     evolution,
+    hdbscanZones: (hdbscanZones ?? []) as HdbscanZone[],
   };
 }
 
@@ -371,6 +398,162 @@ export default async function AnalysePage({
             </div>
           </div>
         )}
+
+        {/* Zones HDBSCAN */}
+        {stats.hdbscanZones.length > 0 && (() => {
+          const types = [...new Set(stats.hdbscanZones.map((z) => z.type_local))];
+          return (
+            <div style={{ marginBottom: 36 }}>
+              <h2
+                style={{
+                  fontSize: 14,
+                  fontWeight: 600,
+                  color: "rgba(255,255,255,0.5)",
+                  textTransform: "uppercase",
+                  letterSpacing: 1,
+                  marginBottom: 6,
+                }}
+              >
+                Zones HDBSCAN
+              </h2>
+              <p style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", marginBottom: 16 }}>
+                {stats.hdbscanZones.length} zones de marché identifiées par clustering géospatial
+              </p>
+              {types.map((type) => {
+                const zones = stats.hdbscanZones.filter((z) => z.type_local === type);
+                const typeColors: Record<string, string> = {
+                  Appartement: "#00d4ff",
+                  Maison: "#ff8844",
+                  "Local industriel. commercial ou assimilé": "#a855f7",
+                };
+                const color = typeColors[type] ?? "#00ff88";
+                return (
+                  <div key={type} style={{ marginBottom: 20 }}>
+                    <div
+                      style={{
+                        fontSize: 12,
+                        fontWeight: 700,
+                        color,
+                        textTransform: "uppercase",
+                        letterSpacing: 0.8,
+                        marginBottom: 8,
+                      }}
+                    >
+                      {TYPE_LABEL[type] ?? type} — {zones.length} zones
+                    </div>
+                    <div
+                      style={{
+                        background: "rgba(255,255,255,0.03)",
+                        border: "1px solid rgba(255,255,255,0.07)",
+                        borderRadius: 12,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {/* En-tête */}
+                      <div
+                        style={{
+                          display: "grid",
+                          gridTemplateColumns: "60px 1fr 110px 110px 90px",
+                          padding: "8px 16px",
+                          borderBottom: "1px solid rgba(255,255,255,0.07)",
+                          fontSize: 10,
+                          color: "rgba(255,255,255,0.3)",
+                          letterSpacing: 0.5,
+                          textTransform: "uppercase",
+                          gap: 8,
+                        }}
+                      >
+                        <span>Zone</span>
+                        <span>Prix médian €/m²</span>
+                        <span style={{ textAlign: "right" }}>Fourchette</span>
+                        <span style={{ textAlign: "right" }}>Prix médian</span>
+                        <span style={{ textAlign: "right" }}>Tx</span>
+                      </div>
+                      {zones.map((zone, i) => {
+                        const maxZonePrix = Math.max(...zones.map((z) => z.prix_m2_median ?? 0), 1);
+                        const pct = Math.round(((zone.prix_m2_median ?? 0) / maxZonePrix) * 100);
+                        return (
+                          <div
+                            key={zone.id}
+                            style={{
+                              display: "grid",
+                              gridTemplateColumns: "60px 1fr 110px 110px 90px",
+                              padding: "10px 16px",
+                              borderBottom:
+                                i < zones.length - 1
+                                  ? "1px solid rgba(255,255,255,0.04)"
+                                  : "none",
+                              alignItems: "center",
+                              gap: 8,
+                            }}
+                          >
+                            <span
+                              style={{
+                                fontWeight: 700,
+                                fontSize: 12,
+                                color,
+                              }}
+                            >
+                              Z{zone.cluster_id}
+                            </span>
+                            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                              <div
+                                style={{
+                                  height: 5,
+                                  borderRadius: 3,
+                                  width: `${pct}%`,
+                                  minWidth: 4,
+                                  background: `linear-gradient(90deg, ${color}88, ${color})`,
+                                  maxWidth: 120,
+                                }}
+                              />
+                              <span style={{ fontSize: 13, fontWeight: 700, color: "#ffdd00", whiteSpace: "nowrap" }}>
+                                {zone.prix_m2_median?.toLocaleString("fr-FR") ?? "—"} €/m²
+                              </span>
+                            </div>
+                            <span
+                              style={{
+                                fontSize: 11,
+                                color: "rgba(255,255,255,0.35)",
+                                textAlign: "right",
+                                whiteSpace: "nowrap",
+                              }}
+                            >
+                              {zone.prix_m2_p25?.toLocaleString("fr-FR") ?? "—"}
+                              {" – "}
+                              {zone.prix_m2_p75?.toLocaleString("fr-FR") ?? "—"}
+                            </span>
+                            <span
+                              style={{
+                                fontSize: 11,
+                                color: "rgba(255,255,255,0.5)",
+                                textAlign: "right",
+                                whiteSpace: "nowrap",
+                              }}
+                            >
+                              {zone.prix_median
+                                ? `${Math.round(zone.prix_median / 1000)}k €`
+                                : "—"}
+                            </span>
+                            <span
+                              style={{
+                                fontSize: 11,
+                                color: "#00d4ff",
+                                textAlign: "right",
+                              }}
+                            >
+                              {zone.count.toLocaleString("fr-FR")}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })()}
 
         {/* CTA lead */}
         <div

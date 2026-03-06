@@ -40,6 +40,16 @@ export async function GET(
 
   if (err2) return NextResponse.json({ error: err2.message }, { status: 500 });
 
+  // Zones HDBSCAN pré-calculées
+  const { data: hdbscanZones } = await supabase
+    .from("dvf_hdbscan_zones")
+    .select(
+      "id,type_local,cluster_id,count,prix_m2_median,prix_m2_p25,prix_m2_p75,prix_median,hull_coords,centroid_lat,centroid_lon,annee_min,annee_max"
+    )
+    .eq("code_commune", code)
+    .order("type_local")
+    .order("cluster_id");
+
   // Agrégation année × type en mémoire
   const byYear: Record<number, { prices: number[]; count: number }> = {};
   for (const p of points ?? []) {
@@ -83,5 +93,6 @@ export async function GET(
       prix_m2_median: c.prix_m2_median,
     })),
     evolution,
+    hdbscanZones: hdbscanZones ?? [],
   });
 }
