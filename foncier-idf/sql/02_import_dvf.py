@@ -29,6 +29,7 @@ DEPT_COORDS = {
     "93": (48.91, 2.47, "Île-de-France"),
     "94": (48.79, 2.47, "Île-de-France"),
     "95": (49.0, 2.1, "Île-de-France"),
+    "60": (49.41, 2.83, "Hauts-de-France"),
 }
 
 COLS_KEEP = [

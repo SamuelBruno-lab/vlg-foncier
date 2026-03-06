@@ -12,6 +12,7 @@ const DEPTS_IDF = [
   { code: "93", nom: "Seine-Saint-Denis" },
   { code: "94", nom: "Val-de-Marne" },
   { code: "95", nom: "Val-d'Oise" },
+  { code: "60", nom: "Oise" },
 ];
 
 const TYPES = ["Appartement", "Maison", "Local industriel. commercial ou assimilé", "Dépendance"];
