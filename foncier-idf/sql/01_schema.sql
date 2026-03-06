@@ -89,3 +89,21 @@ CREATE POLICY "public read dvf_points"           ON dvf_points           FOR SEL
 CREATE POLICY "public read dvf_clusters_commune" ON dvf_clusters_commune FOR SELECT USING (true);
 CREATE POLICY "public read dvf_clusters_dept"    ON dvf_clusters_dept    FOR SELECT USING (true);
 CREATE POLICY "public read dvf_clusters_region"  ON dvf_clusters_region  FOR SELECT USING (true);
+
+-- ── Table leads (ferme à emails) ────────────────────────────
+CREATE TABLE IF NOT EXISTS leads (
+  id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  email       TEXT NOT NULL UNIQUE,
+  nom         TEXT,
+  source      TEXT DEFAULT 'carte_idf',   -- utm source ou page
+  created_at  TIMESTAMPTZ DEFAULT NOW(),
+  ip_hash     TEXT                         -- hash IP pour déduplication (pas de PII)
+);
+
+CREATE INDEX IF NOT EXISTS idx_leads_email      ON leads (email);
+CREATE INDEX IF NOT EXISTS idx_leads_created_at ON leads (created_at DESC);
+
+ALTER TABLE leads ENABLE ROW LEVEL SECURITY;
+-- Lecture réservée au service role (admin uniquement)
+-- Insertion publique autorisée via API route (server-side avec service key)
+CREATE POLICY "no public read leads" ON leads FOR SELECT USING (false);
