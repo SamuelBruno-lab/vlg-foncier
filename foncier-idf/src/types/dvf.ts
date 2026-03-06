@@ -1,5 +1,6 @@
 export interface DvfCluster {
-  cluster_id: number;
+  cluster_id: string;
+  nom?: string;
   lat: number;
   lon: number;
   count: number;

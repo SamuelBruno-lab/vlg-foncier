@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import dynamic from "next/dynamic";
 import FilterPanel from "@/components/FilterPanel";
 import LeadModal from "@/components/LeadModal";
@@ -37,6 +37,7 @@ export default function HomePage() {
   const [zoom] = useState(10);
   const [showHero, setShowHero] = useState(true);
   const [showLeadModal, setShowLeadModal] = useState(false);
+  const didCheckModal = useRef(false);
 
   const fetchData = useCallback(async () => {
     setIsLoading(true);
@@ -71,6 +72,16 @@ export default function HomePage() {
     fetchData();
   }, [fetchData]);
 
+  // Ouvre le modal leads si ?modal=leads (ex: depuis page /analyse)
+  useEffect(() => {
+    if (didCheckModal.current) return;
+    didCheckModal.current = true;
+    if (typeof window !== "undefined" && new URLSearchParams(window.location.search).get("modal") === "leads") {
+      setShowHero(false);
+      setShowLeadModal(true);
+    }
+  }, []);
+
   const totalTx =
     mode === "points"
       ? points.length
@@ -85,6 +96,7 @@ export default function HomePage() {
         mode={mode}
         filters={filters}
         isLoading={isLoading}
+        onCommuneClick={(code) => window.open(`/analyse/${code}`, "_blank")}
       />
 
       {/* Panneau filtres — visible uniquement si hero fermé */}

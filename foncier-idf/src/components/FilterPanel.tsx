@@ -105,6 +105,11 @@ export default function FilterPanel({ filters, onFiltersChange, mode, onModeChan
             ))}
           </div>
 
+          {/* Hint clic commune */}
+          <div style={{ fontSize: 10, color: "rgba(0,212,255,0.5)", marginBottom: 14, padding: "5px 8px", background: "rgba(0,212,255,0.05)", borderRadius: 5, border: "1px solid rgba(0,212,255,0.12)" }}>
+            💡 Clic sur une zone → fiche analyse
+          </div>
+
           {/* Départements */}
           <div style={{ fontSize: 10, textTransform: "uppercase", letterSpacing: 1, color: "rgba(255,255,255,.4)", marginBottom: 6 }}>
             Départements IDF
@@ -198,7 +203,7 @@ export default function FilterPanel({ filters, onFiltersChange, mode, onModeChan
           </div>
 
           <div style={{ fontSize: 10, color: "rgba(255,255,255,.25)", textAlign: "center", paddingTop: 8, borderTop: "1px solid rgba(255,255,255,.06)" }}>
-            datamerry.fr · Source DVF data.gouv.fr
+            datamerry.com · Source DVF data.gouv.fr
           </div>
         </div>
       )}
