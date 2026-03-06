@@ -3,22 +3,23 @@ datamerry — Import CSV DVF → Supabase
 Usage: python sql/02_import_dvf.py --dept 75 93 94 95 77 92
 
 Prérequis:
-  pip install pandas supabase python-dotenv
+  pip install pandas python-dotenv httpx
   Fichiers CSV: dvf_75.csv, dvf_93.csv, etc. dans /home/user/
 """
 
 import argparse
 import os
 import hashlib
+import json
 import pandas as pd
 import numpy as np
-from supabase import create_client
+import httpx
 from dotenv import load_dotenv
 
 load_dotenv(".env.local")
 
 SUPABASE_URL = os.environ["NEXT_PUBLIC_SUPABASE_URL"]
-SUPABASE_KEY = os.environ["NEXT_PUBLIC_SUPABASE_ANON_KEY"]  # utiliser service role key en prod
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ["NEXT_PUBLIC_SUPABASE_ANON_KEY"]
 
 DEPT_COORDS = {
     "75": (48.8566, 2.3522, "Île-de-France"),
@@ -30,6 +31,7 @@ DEPT_COORDS = {
     "94": (48.79, 2.47, "Île-de-France"),
     "95": (49.0, 2.1, "Île-de-France"),
     "60": (49.41, 2.83, "Hauts-de-France"),
+    "44": (47.22, -1.55, "Pays de la Loire"),
 }
 
 COLS_KEEP = [
@@ -45,22 +47,24 @@ def make_id(row):
     return hashlib.md5(key.encode()).hexdigest()[:20]
 
 
-def load_dept(dept: str, csv_path: str) -> pd.DataFrame:
+def load_dept(dept: str, csv_path: str) -> list:
     print(f"  Lecture {csv_path}...")
     df = pd.read_csv(csv_path, low_memory=False, usecols=lambda c: c in COLS_KEEP)
     df = df.dropna(subset=["latitude", "longitude", "valeur_fonciere"])
     df = df[df["valeur_fonciere"] > 0]
     df = df.drop_duplicates(subset=["id_mutation", "id_parcelle"])
 
-    df["valeur_fonciere"] = pd.to_numeric(df["valeur_fonciere"], errors="coerce").astype("Int64")
-    df["surface_reelle_bati"] = pd.to_numeric(df["surface_reelle_bati"], errors="coerce").astype("Int64")
+    df["valeur_fonciere"] = pd.to_numeric(df["valeur_fonciere"], errors="coerce").round().astype("Int64")
+    df["surface_reelle_bati"] = pd.to_numeric(df["surface_reelle_bati"], errors="coerce").round().astype("Int64")
     df["date_mutation"] = pd.to_datetime(df["date_mutation"], errors="coerce")
     df["annee"] = df["date_mutation"].dt.year.astype("Int64")
+    surf = df["surface_reelle_bati"].fillna(0).astype(float)
     df["prix_m2"] = np.where(
-        df["surface_reelle_bati"] > 0,
-        (df["valeur_fonciere"] / df["surface_reelle_bati"]).round().astype("Int64"),
-        pd.NA,
+        surf > 0,
+        (df["valeur_fonciere"].astype(float) / surf).round(),
+        np.nan,
     )
+    df["prix_m2"] = pd.to_numeric(df["prix_m2"], errors="coerce").round().astype("Int64")
 
     df["adresse"] = (
         df["adresse_numero"].fillna("").astype(str).str.strip()
@@ -93,12 +97,11 @@ def load_dept(dept: str, csv_path: str) -> pd.DataFrame:
     return records
 
 
-def compute_clusters(records: list[dict]) -> tuple[list, list, list]:
+def compute_clusters(records: list) -> tuple:
     """Calcule les agrégats commune / dept / region."""
     df = pd.DataFrame(records)
     communes, depts, regions = [], [], []
 
-    # Par commune × type_local
     for (code_commune, type_local), g in df.groupby(["code_commune", "type_local"], dropna=False):
         communes.append({
             "cluster_id": f"{code_commune}_{type_local}",
@@ -112,7 +115,6 @@ def compute_clusters(records: list[dict]) -> tuple[list, list, list]:
             "prix_m2_median": int(g["prix_m2"].median()) if g["prix_m2"].notna().any() else None,
         })
 
-    # Par dept × type_local
     for (dept, type_local), g in df.groupby(["dept", "type_local"], dropna=False):
         depts.append({
             "cluster_id": f"{dept}_{type_local}",
@@ -126,7 +128,6 @@ def compute_clusters(records: list[dict]) -> tuple[list, list, list]:
             "prix_m2_median": int(g["prix_m2"].median()) if g["prix_m2"].notna().any() else None,
         })
 
-    # Par region × type_local
     for (region, type_local), g in df.groupby(["region", "type_local"], dropna=False):
         regions.append({
             "cluster_id": f"{region}_{type_local}",
@@ -143,12 +144,34 @@ def compute_clusters(records: list[dict]) -> tuple[list, list, list]:
     return communes, depts, regions
 
 
-def upsert_batch(supabase, table: str, records: list[dict], batch_size=500):
+def upsert_batch(table: str, records: list, on_conflict: str, batch_size=500):
+    headers = {
+        "apikey": SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type": "application/json",
+        "Prefer": f"resolution=merge-duplicates,return=minimal",
+    }
+    url = f"{SUPABASE_URL}/rest/v1/{table}?on_conflict={on_conflict}"
     total = len(records)
-    for i in range(0, total, batch_size):
-        batch = records[i:i + batch_size]
-        supabase.table(table).upsert(batch, on_conflict="id" if table == "dvf_points" else "cluster_id").execute()
-        print(f"  {table}: {min(i + batch_size, total)}/{total}", end="\r")
+
+    with httpx.Client(timeout=60) as client:
+        for i in range(0, total, batch_size):
+            batch = records[i:i + batch_size]
+            # Convertir les types numpy/pandas en Python natif, NaN → None
+            def clean(v):
+                if v is None:
+                    return None
+                if hasattr(v, 'item'):  # numpy scalar
+                    v = v.item()
+                if isinstance(v, float) and (v != v or v == float('inf') or v == float('-inf')):
+                    return None
+                return v
+            batch_clean = [{k: clean(val) for k, val in row.items()} for row in batch]
+            resp = client.post(url, headers=headers, json=batch_clean)
+            if resp.status_code not in (200, 201):
+                print(f"\n  ERREUR {resp.status_code}: {resp.text[:300]}")
+                return
+            print(f"  {table}: {min(i + batch_size, total)}/{total}", end="\r")
     print()
 
 
@@ -157,8 +180,6 @@ def main():
     parser.add_argument("--dept", nargs="+", default=["75", "93", "95"], help="Départements à importer")
     parser.add_argument("--csv-dir", default="/home/user", help="Dossier des CSV DVF")
     args = parser.parse_args()
-
-    sb = create_client(SUPABASE_URL, SUPABASE_KEY)
 
     all_records = []
     for dept in args.dept:
@@ -170,16 +191,20 @@ def main():
         print(f"  Dept {dept}: {len(records):,} transactions")
         all_records.extend(records)
 
+    if not all_records:
+        print("Aucune donnée à importer.")
+        return
+
     print(f"\nTotal: {len(all_records):,} transactions → Supabase...")
-    upsert_batch(sb, "dvf_points", all_records)
+    upsert_batch("dvf_points", all_records, on_conflict="id")
 
     print("\nCalcul des clusters...")
     communes, depts, regions = compute_clusters(all_records)
     print(f"  {len(communes)} clusters commune, {len(depts)} clusters dept, {len(regions)} clusters region")
 
-    upsert_batch(sb, "dvf_clusters_commune", communes, batch_size=1000)
-    upsert_batch(sb, "dvf_clusters_dept", depts, batch_size=1000)
-    upsert_batch(sb, "dvf_clusters_region", regions, batch_size=1000)
+    upsert_batch("dvf_clusters_commune", communes, on_conflict="cluster_id", batch_size=1000)
+    upsert_batch("dvf_clusters_dept", depts, on_conflict="cluster_id", batch_size=1000)
+    upsert_batch("dvf_clusters_region", regions, on_conflict="cluster_id", batch_size=1000)
 
     print("\n✅ Import terminé!")
 
