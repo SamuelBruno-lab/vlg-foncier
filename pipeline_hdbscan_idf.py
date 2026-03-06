@@ -153,15 +153,50 @@ def load_csv_dept(dept: str, csv_path: Path) -> pd.DataFrame:
 
 # ── HDBSCAN par commune × type ─────────────────────────────────────────────
 
-def hdbscan_params(n: int) -> dict | None:
-    """Paramètres adaptatifs selon le nombre de points."""
-    if n < 15:
-        return None  # trop peu pour clusterer
-    if n < 50:
-        return {"min_cluster_size": 5, "min_samples": 2}
-    if n < 200:
-        return {"min_cluster_size": 8, "min_samples": 3}
-    return {"min_cluster_size": 10, "min_samples": 3}
+def hdbscan_params(n: int, type_local: str = "") -> dict | None:
+    """
+    Paramètres adaptatifs par type de bien.
+
+    MAISONS — cluster_selection_method="leaf"
+      Préserve les micro-zones géographiquement proches à prix distincts
+      (ex: quartiers pavillonnaires mitoyens à 150m d'écart).
+      min_cluster_size petit car le stock de maisons est rare.
+
+    APPARTEMENTS / COMMERCES — cluster_selection_method="eom"
+      min_cluster_size = max(type_min, round(n * 0.08))
+      Règle empirique : ~8% des transactions par zone → nombre de zones
+      proportionnel à la densité du marché.
+      Exemple: 386 apparts → mcs=30 → 6 zones (Bongarde, Sorbiers, Ponant…)
+               45 commerces → mcs=5  → 4 zones (ZI Nord, 8-Mai-45…)
+    """
+    if n < 12:
+        return None
+
+    is_maison = type_local == "Maison"
+
+    if is_maison:
+        # Maisons : leaf, min_cluster_size fixe selon volume
+        if n < 40:
+            mcs = 4
+        elif n < 150:
+            mcs = 6
+        else:
+            mcs = 8
+        return {
+            "min_cluster_size": mcs,
+            "min_samples": 2,
+            "cluster_selection_method": "leaf",
+        }
+    else:
+        # Appartements & Commerces : eom, mcs proportionnel (≈8%)
+        type_min = 5 if "Local" in type_local else 8
+        mcs = max(type_min, round(n * 0.08))
+        ms = 3 if n > 100 else 2
+        return {
+            "min_cluster_size": mcs,
+            "min_samples": ms,
+            "cluster_selection_method": "eom",
+        }
 
 
 def process_commune_type(
@@ -175,7 +210,7 @@ def process_commune_type(
     Applique HDBSCAN sur un sous-ensemble commune × type_local.
     Retourne la liste des zones (clusters) à insérer dans dvf_hdbscan_zones.
     """
-    params = hdbscan_params(len(sub))
+    params = hdbscan_params(len(sub), type_local)
     if params is None:
         return []
 
@@ -184,7 +219,6 @@ def process_commune_type(
     try:
         clusterer = hdbscan.HDBSCAN(
             metric="haversine",
-            cluster_selection_method="eom",
             **params,
         )
         labels = clusterer.fit_predict(coords)
