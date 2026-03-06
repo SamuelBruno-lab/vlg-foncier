@@ -442,8 +442,12 @@ def main():
         print("\n[4] Upload ignoré (--skip-upload)")
         # Sauvegarde locale pour inspection
         out = csv_dir / "hdbscan_zones_idf.json"
+        def np_clean(obj):
+            if hasattr(obj, "item"):
+                return obj.item()
+            raise TypeError
         with open(out, "w") as f:
-            json.dump(all_zones, f, ensure_ascii=False, indent=2)
+            json.dump(all_zones, f, ensure_ascii=False, indent=2, default=np_clean)
         print(f"  Zones sauvegardées localement: {out}")
         return
 
