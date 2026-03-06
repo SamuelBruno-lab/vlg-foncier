@@ -47,9 +47,10 @@ interface Props {
   mode: "points" | "clusters" | "heatmap";
   filters: DvfFilters;
   isLoading: boolean;
+  onCommuneClick?: (code: string, nom: string) => void;
 }
 
-export default function DvfMap({ points, clusters, mode, filters, isLoading }: Props) {
+export default function DvfMap({ points, clusters, mode, filters, isLoading, onCommuneClick }: Props) {
   const [hovered, setHovered] = useState<DvfPoint | DvfCluster | null>(null);
   const [cursor, setCursor] = useState("grab");
 
@@ -99,6 +100,15 @@ export default function DvfMap({ points, clusters, mode, filters, isLoading }: P
           onHover: (info: PickingInfo) => {
             setHovered(info.object ?? null);
             setCursor(info.object ? "pointer" : "grab");
+          },
+          onClick: (info: PickingInfo) => {
+            if (info.object && onCommuneClick) {
+              const cluster = info.object as DvfCluster;
+              // cluster_id = "{code_commune}_{type_local}" pour les communes
+              const code = cluster.cluster_id.split("_")[0];
+              const nom = (cluster as DvfCluster & { nom?: string }).nom ?? code;
+              onCommuneClick(code, nom);
+            }
           },
         }),
       ];
