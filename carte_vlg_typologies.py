@@ -197,7 +197,7 @@ def build_map(data, title, subtitle, min_cluster_size, prix_m2_label, out_path):
     hfg.add_to(m)
 
     # Polygones HDBSCAN
-    pfg = folium.FeatureGroup(name="🗺️ Zones HDBSCAN", show=True)
+    pfg = folium.FeatureGroup(name="🗺️ Micro-marchés", show=True)
     for cid in sorted(data[data["cluster"] >= 0]["cluster"].unique()):
         pts = data[data["cluster"] == cid][["latitude","longitude"]].values
         if len(pts) < 3: continue
@@ -339,7 +339,7 @@ def build_map(data, title, subtitle, min_cluster_size, prix_m2_label, out_path):
   <div id="vlg-body">
     <div class="kpi-grid">
       <div class="kpi"><div class="val">{total_tx:,}</div><div class="lbl">Transactions</div></div>
-      <div class="kpi"><div class="val">{n_clusters}</div><div class="lbl">Zones HDBSCAN</div></div>
+      <div class="kpi"><div class="val">{n_clusters}</div><div class="lbl">Micro-marchés</div></div>
       <div class="kpi"><div class="val">{med_prix/1000:.0f}k€</div><div class="lbl">Prix médian</div></div>
       <div class="kpi"><div class="val">{med_m2_display}</div><div class="lbl">{prix_m2_label[:10]}</div></div>
     </div>
@@ -356,7 +356,7 @@ def build_map(data, title, subtitle, min_cluster_size, prix_m2_label, out_path):
     </table>
     <div style="margin-top:14px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);
       font-size:10px;color:rgba(255,255,255,.3);text-align:center;">
-      Source : DVF · data.gouv.fr · HDBSCAN min_cluster_size={min_cluster_size}
+      Source : DVF · data.gouv.fr · micro-marchés min_cluster_size={min_cluster_size}
     </div>
   </div>
 </div>
