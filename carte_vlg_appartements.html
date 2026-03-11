@@ -216,6 +216,16 @@
   </div>
 </div>
     
+<div id="addr-search-bar" style="position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:9997;display:flex;gap:6px;align-items:center;">
+  <div style="position:relative;display:flex;align-items:center;">
+    <input id="addr-input" type="text" placeholder="Rechercher une adresse..."
+      style="width:240px;padding:8px 36px 8px 14px;border-radius:20px;border:1px solid rgba(255,255,255,0.18);background:rgba(10,10,30,0.92);color:#e8e8f0;font-size:13px;font-family:'Segoe UI',Arial,sans-serif;outline:none;backdrop-filter:blur(8px);box-shadow:0 4px 16px rgba(0,0,0,0.4);"
+      onkeydown="if(event.key==='Enter')addrSearch()"/>
+    <button onclick="addrSearch()" id="addr-search-btn" style="position:absolute;right:8px;background:none;border:none;cursor:pointer;font-size:15px;color:#00d4ff;padding:2px;">🔍</button>
+  </div>
+  <span id="addr-msg" style="display:none;font-size:12px;color:#ff6060;background:rgba(10,10,30,0.9);padding:6px 12px;border-radius:12px;">Adresse non trouvée</span>
+  <button id="addr-clear" onclick="addrClear()" style="display:none;background:rgba(10,10,30,0.9);border:1px solid rgba(255,255,255,0.15);color:rgba(255,255,255,0.5);border-radius:20px;padding:6px 10px;font-size:11px;cursor:pointer;font-family:'Segoe UI',Arial,sans-serif;">✕ Effacer</button>
+</div>
             <div class="folium-map" id="map_a66ffc6aa701caec7f34e53a897854ea" ></div>
         
 <div id="copyright-banner">© 2026 Samuel Bruno — Tous droits réservés</div>
@@ -246,6 +256,35 @@ function vlgShareInstagram(){
     btn.innerHTML='<span class="share-icon">✓</span> Lien copié — collez dans Instagram';
     setTimeout(function(){btn.innerHTML=orig;},3000);
   });
+}
+var _addrPin=null;
+function addrSearch(){
+  var q=document.getElementById('addr-input').value.trim();
+  if(!q)return;
+  var btn=document.getElementById('addr-search-btn');
+  btn.textContent='⏳';
+  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(q)+'&countrycodes=fr&limit=1',{headers:{'Accept-Language':'fr'}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      btn.textContent='🔍';
+      if(!data.length){
+        var msg=document.getElementById('addr-msg');
+        msg.style.display='inline';
+        setTimeout(function(){msg.style.display='none';},2500);
+        return;
+      }
+      var lat=parseFloat(data[0].lat),lon=parseFloat(data[0].lon);
+      var label=data[0].display_name.split(',').slice(0,2).join(', ');
+      map_a66ffc6aa701caec7f34e53a897854ea.flyTo([lat,lon],17,{duration:1.2});
+      if(_addrPin)_addrPin.remove();
+      _addrPin=L.marker([lat,lon]).addTo(map_a66ffc6aa701caec7f34e53a897854ea).bindPopup('<b>'+label+'</b>').openPopup();
+      document.getElementById('addr-clear').style.display='inline-block';
+    }).catch(function(){btn.textContent='🔍';});
+}
+function addrClear(){
+  if(_addrPin){_addrPin.remove();_addrPin=null;}
+  document.getElementById('addr-input').value='';
+  document.getElementById('addr-clear').style.display='none';
 }
 </script>
 </body>
