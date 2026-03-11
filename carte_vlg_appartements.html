@@ -94,14 +94,16 @@
     border-radius:12px;padding:0;width:300px;
     box-shadow:0 8px 32px rgba(0,0,0,0.6);
     border:1px solid rgba(255,255,255,0.1);overflow:hidden;
+    max-height:calc(100vh - 20px);display:flex;flex-direction:column;
   }
   #vlg-header {
     background:linear-gradient(90deg,#00d4ff22,#ff005522);
     padding:14px 18px;border-bottom:1px solid rgba(255,255,255,0.1);
+    flex-shrink:0;
   }
   #vlg-header h2 {margin:0;font-size:15px;font-weight:700;color:#fff;letter-spacing:.5px;}
   #vlg-header p  {margin:4px 0 0;font-size:11px;color:rgba(255,255,255,.55);}
-  #vlg-body {padding:14px 18px;}
+  #vlg-body {padding:14px 18px;overflow-y:auto;flex:1;}
   .kpi-grid {display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;}
   .kpi {background:rgba(255,255,255,0.06);border-radius:8px;padding:10px;text-align:center;border:1px solid rgba(255,255,255,0.08);}
   .kpi .val {font-size:18px;font-weight:800;color:#00d4ff;line-height:1.1;}
