@@ -116,17 +116,37 @@
   .badge {display:inline-block;border-radius:4px;padding:2px 7px;font-size:11px;font-weight:700;margin:2px;}
   #vlg-toggle {position:absolute;top:8px;right:12px;cursor:pointer;color:rgba(255,255,255,.5);font-size:18px;user-select:none;}
   #vlg-toggle:hover {color:#fff;}
+  #vlg-collapsible {display:flex;flex-direction:column;flex:1;overflow:hidden;}
+  #vlg-tabs {display:flex;flex-shrink:0;border-bottom:1px solid rgba(255,255,255,0.08);}
+  .vlg-tab {flex:1;padding:8px 4px;font-size:10px;font-weight:700;text-transform:uppercase;
+    letter-spacing:1px;cursor:pointer;border:none;border-bottom:2px solid transparent;
+    background:transparent;color:rgba(255,255,255,.35);font-family:'Segoe UI',Arial,sans-serif;
+    transition:color .15s,border-color .15s,background .15s;}
+  .vlg-tab.active {color:#00d4ff;border-bottom-color:#00d4ff;background:rgba(0,212,255,0.08);}
+  #vlg-share {padding:14px 18px;overflow-y:auto;flex:1;display:none;}
+  .share-btn {display:flex;align-items:center;gap:10px;width:100%;padding:10px 14px;
+    margin-bottom:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);
+    background:rgba(255,255,255,0.05);color:#e8e8f0;font-size:13px;font-weight:600;
+    cursor:pointer;text-decoration:none;transition:all .15s;
+    font-family:'Segoe UI',Arial,sans-serif;box-sizing:border-box;}
+  .share-btn:hover {background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#fff;}
+  .share-icon {font-size:16px;width:22px;text-align:center;flex-shrink:0;}
 </style>
 <div id="vlg-dashboard">
   <div id="vlg-header">
     <span id="vlg-toggle" onclick="
-      var b=document.getElementById('vlg-body');
+      var c=document.getElementById('vlg-collapsible');
       var t=document.getElementById('vlg-toggle');
-      if(b.style.display==='none'){b.style.display='block';t.textContent='▲'}
-      else{b.style.display='none';t.textContent='▼'}
+      if(c.style.display==='none'){c.style.display='flex';t.textContent='▲'}
+      else{c.style.display='none';t.textContent='▼'}
     ">▲</span>
     <h2>Appartements</h2>
     <p>Villeneuve-la-Garenne · 2020–2025</p>
+  </div>
+  <div id="vlg-collapsible" style="display:flex;flex-direction:column;flex:1;overflow:hidden;">
+  <div id="vlg-tabs">
+    <button class="vlg-tab active" onclick="vlgTab('stats',this)">Stats</button>
+    <button class="vlg-tab" onclick="vlgTab('share',this)">Partager</button>
   </div>
   <div id="vlg-body">
     <div class="kpi-grid">
@@ -178,11 +198,56 @@
       Source : DVF · data.gouv.fr · HDBSCAN min_cluster_size=31
     </div>
   </div>
+  <div id="vlg-share">
+    <div class="section-title" style="margin-bottom:12px;">Partager cette carte</div>
+    <button class="share-btn" onclick="vlgCopyLink(this)">
+      <span class="share-icon">🔗</span> Copier le lien
+    </button>
+    <button class="share-btn" onclick="vlgShareWhatsapp()">
+      <span class="share-icon">💬</span> WhatsApp
+    </button>
+    <button id="btn-instagram" class="share-btn" onclick="vlgShareInstagram()">
+      <span class="share-icon">📸</span> Instagram (copier le lien)
+    </button>
+    <div style="margin-top:10px;font-size:10px;color:rgba(255,255,255,.25);line-height:1.5;">
+      Pour Instagram : collez le lien dans votre story, bio ou DM.
+    </div>
+  </div>
+  </div>
 </div>
     
             <div class="folium-map" id="map_a66ffc6aa701caec7f34e53a897854ea" ></div>
         
 <div id="copyright-banner">© 2026 Samuel Bruno — Tous droits réservés</div>
+<script>
+function vlgTab(name,btn){
+  document.getElementById('vlg-body').style.display=name==='stats'?'block':'none';
+  document.getElementById('vlg-share').style.display=name==='share'?'block':'none';
+  document.querySelectorAll('.vlg-tab').forEach(function(t){t.classList.remove('active');});
+  btn.classList.add('active');
+}
+function vlgCopyLink(btn){
+  navigator.clipboard.writeText(window.location.href).then(function(){
+    var orig=btn.innerHTML;
+    btn.innerHTML='<span class="share-icon">✓</span> Lien copié !';
+    btn.style.color='#00d4ff';
+    setTimeout(function(){btn.innerHTML=orig;btn.style.color='';},2000);
+  });
+}
+function vlgShareWhatsapp(){
+  var url=encodeURIComponent(window.location.href);
+  var txt=encodeURIComponent('Carte immobilière · Villeneuve-la-Garenne — ');
+  window.open('https://wa.me/?text='+txt+url,'_blank');
+}
+function vlgShareInstagram(){
+  var btn=document.getElementById('btn-instagram');
+  navigator.clipboard.writeText(window.location.href).then(function(){
+    var orig=btn.innerHTML;
+    btn.innerHTML='<span class="share-icon">✓</span> Lien copié — collez dans Instagram';
+    setTimeout(function(){btn.innerHTML=orig;},3000);
+  });
+}
+</script>
 </body>
 <script>
     
