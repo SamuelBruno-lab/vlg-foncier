@@ -94,16 +94,14 @@
     border-radius:12px;padding:0;width:300px;
     box-shadow:0 8px 32px rgba(0,0,0,0.6);
     border:1px solid rgba(255,255,255,0.1);overflow:hidden;
-    max-height:calc(100vh - 20px);display:flex;flex-direction:column;
   }
   #vlg-header {
     background:linear-gradient(90deg,#00d4ff22,#ff005522);
     padding:14px 18px;border-bottom:1px solid rgba(255,255,255,0.1);
-    flex-shrink:0;
   }
   #vlg-header h2 {margin:0;font-size:15px;font-weight:700;color:#fff;letter-spacing:.5px;}
   #vlg-header p  {margin:4px 0 0;font-size:11px;color:rgba(255,255,255,.55);}
-  #vlg-body {padding:14px 18px;overflow-y:auto;flex:1;}
+  #vlg-body {padding:14px 18px;}
   .kpi-grid {display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;}
   .kpi {background:rgba(255,255,255,0.06);border-radius:8px;padding:10px;text-align:center;border:1px solid rgba(255,255,255,0.08);}
   .kpi .val {font-size:18px;font-weight:800;color:#00d4ff;line-height:1.1;}
@@ -116,42 +114,22 @@
   .badge {display:inline-block;border-radius:4px;padding:2px 7px;font-size:11px;font-weight:700;margin:2px;}
   #vlg-toggle {position:absolute;top:8px;right:12px;cursor:pointer;color:rgba(255,255,255,.5);font-size:18px;user-select:none;}
   #vlg-toggle:hover {color:#fff;}
-  #vlg-collapsible {display:flex;flex-direction:column;flex:1;overflow:hidden;}
-  #vlg-tabs {display:flex;flex-shrink:0;border-bottom:1px solid rgba(255,255,255,0.08);}
-  .vlg-tab {flex:1;padding:8px 4px;font-size:10px;font-weight:700;text-transform:uppercase;
-    letter-spacing:1px;cursor:pointer;border:none;border-bottom:2px solid transparent;
-    background:transparent;color:rgba(255,255,255,.35);font-family:'Segoe UI',Arial,sans-serif;
-    transition:color .15s,border-color .15s,background .15s;}
-  .vlg-tab.active {color:#00d4ff;border-bottom-color:#00d4ff;background:rgba(0,212,255,0.08);}
-  #vlg-share {padding:14px 18px;overflow-y:auto;flex:1;display:none;}
-  .share-btn {display:flex;align-items:center;gap:10px;width:100%;padding:10px 14px;
-    margin-bottom:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);
-    background:rgba(255,255,255,0.05);color:#e8e8f0;font-size:13px;font-weight:600;
-    cursor:pointer;text-decoration:none;transition:all .15s;
-    font-family:'Segoe UI',Arial,sans-serif;box-sizing:border-box;}
-  .share-btn:hover {background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#fff;}
-  .share-icon {font-size:16px;width:22px;text-align:center;flex-shrink:0;}
 </style>
 <div id="vlg-dashboard">
   <div id="vlg-header">
     <span id="vlg-toggle" onclick="
-      var c=document.getElementById('vlg-collapsible');
+      var b=document.getElementById('vlg-body');
       var t=document.getElementById('vlg-toggle');
-      if(c.style.display==='none'){c.style.display='flex';t.textContent='▲'}
-      else{c.style.display='none';t.textContent='▼'}
+      if(b.style.display==='none'){b.style.display='block';t.textContent='▲'}
+      else{b.style.display='none';t.textContent='▼'}
     ">▲</span>
     <h2>Maisons / Pavillons</h2>
-    <p>Villeneuve-la-Garenne · 2020–2025</p>
-  </div>
-  <div id="vlg-collapsible" style="display:flex;flex-direction:column;flex:1;overflow:hidden;">
-  <div id="vlg-tabs">
-    <button class="vlg-tab active" onclick="vlgTab('stats',this)">Stats</button>
-    <button class="vlg-tab" onclick="vlgTab('share',this)">Partager</button>
+    <p>Villeneuve-la-Garenne · 2025</p>
   </div>
   <div id="vlg-body">
     <div class="kpi-grid">
       <div class="kpi"><div class="val">80</div><div class="lbl">Transactions</div></div>
-      <div class="kpi"><div class="val">5</div><div class="lbl">Zones HDBSCAN</div></div>
+      <div class="kpi"><div class="val">5</div><div class="lbl">Micromarchés</div></div>
       <div class="kpi"><div class="val">355k€</div><div class="lbl">Prix médian</div></div>
       <div class="kpi"><div class="val">4,412€</div><div class="lbl">Médiane/m²</div></div>
     </div>
@@ -161,33 +139,6 @@
       <tr><th>Année</th><th>Prix médian</th><th>€/m² médian</th></tr>
       <tr><td>2020</td><td>355,000 €</td><td>4,762 €/m²</td></tr><tr><td>2021</td><td>330,000 €</td><td>4,091 €/m²</td></tr><tr><td>2022</td><td>407,500 €</td><td>4,600 €/m²</td></tr><tr><td>2023</td><td>380,000 €</td><td>4,476 €/m²</td></tr><tr><td>2024</td><td>355,000 €</td><td>3,832 €/m²</td></tr><tr><td>2025</td><td>323,500 €</td><td>4,212 €/m²</td></tr>
     </table>
-    <!-- Mini sparkline €/m² 2020-2025 -->
-    <svg viewBox="0 0 270 72" width="100%" style="display:block;margin:8px 0 2px;overflow:visible;" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="spkGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#ff8844" stop-opacity="0.25"/>
-          <stop offset="100%" stop-color="#ff8844" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-      <polygon points="20,8 68,47 116,17 164,25 212,62 260,40 260,66 20,66" fill="url(#spkGrad)"/>
-      <polyline points="20,8 68,47 116,17 164,25 212,62 260,40"
-        fill="none" stroke="#ff8844" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
-      <circle cx="20"  cy="8"  r="3"   fill="#ff8844" stroke="#fff" stroke-width="1"/>
-      <circle cx="68"  cy="47" r="2.5" fill="#ff8844"/>
-      <circle cx="116" cy="17" r="2.5" fill="#ff8844"/>
-      <circle cx="164" cy="25" r="2.5" fill="#ff8844"/>
-      <circle cx="212" cy="62" r="2.5" fill="#ff8844"/>
-      <circle cx="260" cy="40" r="2.5" fill="#ff8844"/>
-      <text x="20"  y="5"  text-anchor="start"  font-size="8" fill="#ff8844">4 762</text>
-      <text x="212" y="59" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.5)">3 832</text>
-      <text x="20"  y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2020</text>
-      <text x="68"  y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2021</text>
-      <text x="116" y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2022</text>
-      <text x="164" y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2023</text>
-      <text x="212" y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2024</text>
-      <text x="260" y="72" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.4)">2025</text>
-    </svg>
-    <div style="font-size:9px;color:rgba(255,255,255,.3);text-align:right;margin-bottom:10px;">€/m² médian</div>
     <div class="section-title" style="margin-top:14px;">Top zones</div>
     <table class="year-table">
       <tr><th>Zone</th><th>Tx</th><th>€/m²</th></tr>
@@ -195,98 +146,14 @@
     </table>
     <div style="margin-top:14px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);
       font-size:10px;color:rgba(255,255,255,.3);text-align:center;">
-      Source : DVF · data.gouv.fr · HDBSCAN min_cluster_size=6
+      Source : DVF · data.gouv.fr
     </div>
-  </div>
-  <div id="vlg-share">
-    <div class="section-title" style="margin-bottom:12px;">Partager cette carte</div>
-    <button class="share-btn" onclick="vlgCopyLink(this)">
-      <span class="share-icon">🔗</span> Copier le lien
-    </button>
-    <button class="share-btn" onclick="vlgShareWhatsapp()">
-      <span class="share-icon">💬</span> WhatsApp
-    </button>
-    <button id="btn-instagram" class="share-btn" onclick="vlgShareInstagram()">
-      <span class="share-icon">📸</span> Instagram (copier le lien)
-    </button>
-    <div style="margin-top:10px;font-size:10px;color:rgba(255,255,255,.25);line-height:1.5;">
-      Pour Instagram : collez le lien dans votre story, bio ou DM.
-    </div>
-  </div>
   </div>
 </div>
     
-<div id="addr-search-bar" style="position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:9997;display:flex;gap:6px;align-items:center;">
-  <div style="position:relative;display:flex;align-items:center;">
-    <input id="addr-input" type="text" placeholder="Rechercher une adresse..."
-      style="width:240px;padding:8px 36px 8px 14px;border-radius:20px;border:1px solid rgba(255,255,255,0.18);background:rgba(10,10,30,0.92);color:#e8e8f0;font-size:13px;font-family:'Segoe UI',Arial,sans-serif;outline:none;backdrop-filter:blur(8px);box-shadow:0 4px 16px rgba(0,0,0,0.4);"
-      onkeydown="if(event.key==='Enter')addrSearch()"/>
-    <button onclick="addrSearch()" id="addr-search-btn" style="position:absolute;right:8px;background:none;border:none;cursor:pointer;font-size:15px;color:#00d4ff;padding:2px;">🔍</button>
-  </div>
-  <span id="addr-msg" style="display:none;font-size:12px;color:#ff6060;background:rgba(10,10,30,0.9);padding:6px 12px;border-radius:12px;">Adresse non trouvée</span>
-  <button id="addr-clear" onclick="addrClear()" style="display:none;background:rgba(10,10,30,0.9);border:1px solid rgba(255,255,255,0.15);color:rgba(255,255,255,0.5);border-radius:20px;padding:6px 10px;font-size:11px;cursor:pointer;font-family:'Segoe UI',Arial,sans-serif;">✕ Effacer</button>
-</div>
             <div class="folium-map" id="map_e5562393ddfc201f9f7ab0fae01fe85d" ></div>
         
 <div id="copyright-banner">© 2026 Samuel Bruno — Tous droits réservés</div>
-<script>
-function vlgTab(name,btn){
-  document.getElementById('vlg-body').style.display=name==='stats'?'block':'none';
-  document.getElementById('vlg-share').style.display=name==='share'?'block':'none';
-  document.querySelectorAll('.vlg-tab').forEach(function(t){t.classList.remove('active');});
-  btn.classList.add('active');
-}
-function vlgCopyLink(btn){
-  navigator.clipboard.writeText(window.location.href).then(function(){
-    var orig=btn.innerHTML;
-    btn.innerHTML='<span class="share-icon">✓</span> Lien copié !';
-    btn.style.color='#00d4ff';
-    setTimeout(function(){btn.innerHTML=orig;btn.style.color='';},2000);
-  });
-}
-function vlgShareWhatsapp(){
-  var url=encodeURIComponent(window.location.href);
-  var txt=encodeURIComponent('Carte immobilière · Villeneuve-la-Garenne — ');
-  window.open('https://wa.me/?text='+txt+url,'_blank');
-}
-function vlgShareInstagram(){
-  var btn=document.getElementById('btn-instagram');
-  navigator.clipboard.writeText(window.location.href).then(function(){
-    var orig=btn.innerHTML;
-    btn.innerHTML='<span class="share-icon">✓</span> Lien copié — collez dans Instagram';
-    setTimeout(function(){btn.innerHTML=orig;},3000);
-  });
-}
-var _addrPin=null;
-function addrSearch(){
-  var q=document.getElementById('addr-input').value.trim();
-  if(!q)return;
-  var btn=document.getElementById('addr-search-btn');
-  btn.textContent='⏳';
-  fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(q)+'&countrycodes=fr&limit=1',{headers:{'Accept-Language':'fr'}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      btn.textContent='🔍';
-      if(!data.length){
-        var msg=document.getElementById('addr-msg');
-        msg.style.display='inline';
-        setTimeout(function(){msg.style.display='none';},2500);
-        return;
-      }
-      var lat=parseFloat(data[0].lat),lon=parseFloat(data[0].lon);
-      var label=data[0].display_name.split(',').slice(0,2).join(', ');
-      map_e5562393ddfc201f9f7ab0fae01fe85d.flyTo([lat,lon],17,{duration:1.2});
-      if(_addrPin)_addrPin.remove();
-      _addrPin=L.marker([lat,lon]).addTo(map_e5562393ddfc201f9f7ab0fae01fe85d).bindPopup('<b>'+label+'</b>').openPopup();
-      document.getElementById('addr-clear').style.display='inline-block';
-    }).catch(function(){btn.textContent='🔍';});
-}
-function addrClear(){
-  if(_addrPin){_addrPin.remove();_addrPin=null;}
-  document.getElementById('addr-input').value='';
-  document.getElementById('addr-clear').style.display='none';
-}
-</script>
 </body>
 <script>
     
@@ -3335,7 +3202,7 @@ function addrClear(){
                 },
                 overlays :  {
                     "\ud83c\udf21\ufe0f Heatmap (intensit\u00e9 prix/m\u00b2)" : feature_group_1819e3078605d68ce8b473fb11525be6,
-                    "\ud83d\uddfa\ufe0f Zones HDBSCAN" : feature_group_b6211fa1f027cb8dca7adddc3b32688e,
+                    "\ud83d\uddfa\ufe0f Micromarchés" : feature_group_b6211fa1f027cb8dca7adddc3b32688e,
                     "\ud83d\udd35 2020" : feature_group_2432087254bfeb274c2d3966e086afc5,
                     "\ud83d\udfe2 2021" : feature_group_7b9cb8d320f877d41b7ecc204b6835ed,
                     "\ud83d\udfe1 2022" : feature_group_dab6504c06f1767d2c129e72899f7516,
